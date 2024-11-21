@@ -1,0 +1,30 @@
+﻿@page
+@model WebSiteWasi.Pages.UserModel
+@{
+}
+
+<h2 class="text-center"> Welcome to your account</h2>
+
+<div>
+    Nombres: @Model.appUser?.Nombre
+</div>
+
+<div>
+    Apellidos: @Model.appUser?.Apellido
+</div>
+
+<div>
+    Telefono: @Model.appUser?.PhoneNumber
+</div>
+
+<div>
+    Direccion: @Model.appUser?.Direccion
+</div>
+
+<div>
+    Email: @Model.appUser?.Email
+</div>
+
+<div>
+    Fecha de Creacion: @Model.appUser?.FechaCreacion.ToString("MM//dd/yyyy")
+</div>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WebSiteWasi.Models.Categoria>
+@{
+    ViewData["Title"] = "VistaListaCategorias";
+}
+
+<div class="container pt-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Lista de Categorias</h2>
+        </div>
+        <div class="col-6">
+            <a asp-controller="Categoria" asp-action="VistaRegistrarCategoria" class="btn btn-primary">Nueva Categoria</a>
+        </div>
+    </div>
+    <br />
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Acciones</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th width="80%">@item.IdCategoria</th>
+                        <th width="70%">@item.NombreCategoria</th>                      
+                        <th>
+                            <div class="m-75 btn-group" role="group">
+                                <a asp-controller="Categoria" asp-action="VistaModificarCategoria" asp-route-Id="@item.IdCategoria" class="btn btn-primary mx-2">Modificar</a>
+                                <a asp-controller="Categoria" asp-action="VistaPreEliminarCategoria" asp-route-Id="@item.IdCategoria" class="btn btn-danger mx-2">Eliminar</a>
+                                <a asp-controller="Producto" asp-action="" class="btn btn-success mx-2">Ver Lista de Productos</a>
+                            </div>
+                        </th>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No hay registros de Categorias</p>
+    }
+
+</div>
+
+
+
