@@ -51,13 +51,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "bdeb58ba-2a98-492b-aa50-7ff5563709f3",
+                            Id = "e7cb4887-ba1a-4cac-958f-249fb77e8ab6",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "498bab73-9a77-4401-8417-81e1abdee030",
+                            Id = "b247142b-2369-431a-884b-94c4eb2459ee",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -287,9 +287,8 @@ namespace WebSiteWasi.Migrations
                     b.Property<DateTime>("FechaCreacionProducto")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("IdCategoria")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("IdCategoria")
+                        .HasColumnType("int");
 
                     b.Property<string>("ImagenURLProducto")
                         .IsRequired()

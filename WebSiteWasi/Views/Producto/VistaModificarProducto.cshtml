@@ -1,7 +1,100 @@
-﻿
+﻿@model WebSiteWasi.Models.ProductoDto
 @{
     ViewData["Title"] = "VistaModificarProducto";
 }
 
-<h1>VistaModificarProducto</h1>
+<h1>Modificar Producto</h1>
+
+<form method="post" asp-action="ModificarProducto" enctype="multipart/form-data">
+    
+    <div class="border p-3">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group row">
+            <h2 class="text-info pl-3">Modificar Producto</h2>
+        </div>
+
+        <div class="container">
+
+            <input type="hidden" name="IdProducto" value="@ViewData["IdProducto"]" />
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="NombreProducto" class="form-label">Nombre: </label>
+                    <input asp-for="NombreProducto" class="form-control">
+                    <span asp-validation-for="NombreProducto" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="DescripcionProducto" class="form-label">Descripcion: </label>
+                    <input asp-for="DescripcionProducto" class="form-control" />
+                    <span asp-validation-for="DescripcionProducto" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="PrecioProducto" class="form-label">Precio: </label>
+                    <input asp-for="PrecioProducto" class="form-control" />
+                    <span asp-validation-for="PrecioProducto" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <label asp-for="IdCategoria" class="control-label"></label>
+                    <select asp-for="IdCategoria" class="form-control" asp-items="@(ViewData["Categorias"] as IEnumerable<SelectListItem>)"></select>
+                    <span asp-validation-for="IdCategoria" class="text-danger"></span>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="/ImagenesProductos/@ViewData["ImagenURLProducto"]" width="150"/>
+                   
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="form-label">Imagen: </label>
+                    <input asp-for="ImagenFile" class="form-control" />
+                    <span asp-validation-for="ImagenFile" class="text-danger">@ViewData["ImagenFile"] </span>
+                </div>
+            </div>
+
+
+
+
+            <br />
+
+
+
+
+            <div class="d-grid gap-2 d-md-block">
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <a asp-controller="Producto" asp-action="VistaListaProductos" class="btn btn-success">Regresar</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
 

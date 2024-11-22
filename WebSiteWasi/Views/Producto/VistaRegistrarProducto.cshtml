@@ -1,4 +1,4 @@
-﻿@model WebSiteWasi.Models.Producto
+﻿@model WebSiteWasi.Models.ProductoDto
 @{
     ViewData["Title"] = "VistaRegistrarProducto";
 }
@@ -48,9 +48,9 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <label for="Imagen" class="form-label">Imagen: </label>
-                    <input type="file" name="Imagen" class="form-control" />
-                    <span class="text-danger">@ViewData["ImagenError"] </span>
+                    <label  class="form-label">Imagen: </label>
+                    <input asp-for="ImagenFile" class="form-control" required />
+                    <span asp-validation-for="ImagenFile" class="text-danger">@ViewData["ImagenFile"] </span>
                 </div>
             </div>
 

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore;
 using WebSiteWasi.Datos;
 using WebSiteWasi.Models;
@@ -11,10 +12,14 @@ namespace WebSiteWasi.Controllers
     {
         private readonly ApplicationDbContext _db;
 
+        private readonly IWebHostEnvironment environment;
 
-        public ProductoController(ApplicationDbContext db)
+
+
+        public ProductoController(ApplicationDbContext db, IWebHostEnvironment environment)
         {
             _db = db;
+            this.environment = environment; 
         }
 
         [Authorize(Roles = "ADMIN")]
@@ -41,61 +46,60 @@ namespace WebSiteWasi.Controllers
             return View();
         }
 
-        [HttpPost]
-public IActionResult RegistrarProducto(Producto producto, IFormFile Imagen)
-{
-    // Validar si se subió una imagen
-    if (Imagen == null || Imagen.Length == 0)
-    {
-        ModelState.AddModelError("Imagen", "Debe subir una imagen para el producto.");
-    }
 
-    // Validar el tipo de archivo (opcional)
-    if (Imagen != null && !Imagen.ContentType.StartsWith("image"))
-    {
-        ModelState.AddModelError("Imagen", "El archivo debe ser una imagen válida.");
-    }
-
-    if (ModelState.IsValid)
-    {
-        // Guardar la imagen en wwwroot/ImagenesProductos si es válida
-        if (Imagen != null && Imagen.Length > 0)
+        public IActionResult RegistrarProducto(ProductoDto productoDto)
         {
-            // Generar un nombre único para la imagen
-            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(Imagen.FileName);
-
-            // Ruta completa donde se guardará la imagen
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ImagenesProductos", fileName);
-
-            // Crear la carpeta si no existe
-            if (!Directory.Exists(Path.GetDirectoryName(filePath)))
+            
+            if (productoDto.ImagenFile == null || productoDto.ImagenFile.Length == 0)
             {
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                ModelState.AddModelError("ImagenFile", "Debe subir una imagen para el producto.");
             }
 
-            // Guardar el archivo en la ruta especificada
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            
+            if (productoDto.ImagenFile != null && !productoDto.ImagenFile.ContentType.StartsWith("image"))
             {
-                Imagen.CopyTo(stream);
+                ModelState.AddModelError("ImagenFile", "El archivo debe ser una imagen válida.");
             }
 
-            // Guardar la ruta relativa de la imagen en el modelo
-            producto.ImagenURLProducto = "/ImagenesProductos/" + fileName;
+            if (ModelState.IsValid)
+            {
+
+                string newImageFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                newImageFileName += Path.GetExtension(productoDto.ImagenFile!.FileName);
+
+                string imagenFileFullPath = environment.WebRootPath + "/ImagenesProductos/" + newImageFileName;
+
+                using(var stream = System.IO.File.Create(imagenFileFullPath))
+                {
+                    productoDto.ImagenFile.CopyTo(stream);
+                }
+
+                Producto producto = new Producto();
+
+                producto.NombreProducto = productoDto.NombreProducto;
+                producto.DescripcionProducto = productoDto.DescripcionProducto;
+                producto.PrecioProducto = productoDto.PrecioProducto;
+                producto.IdCategoria = productoDto.IdCategoria;
+                producto.ImagenURLProducto = newImageFileName;
+                producto.FechaCreacionProducto = DateTime.Now;
+
+                _db.Productos.Add(producto);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(VistaListaProductos));
+            }
+
+            var categorias = _db.Categorias
+                .Select(c => new SelectListItem
+                {
+                    Value = c.IdCategoria.ToString(),
+                    Text = c.NombreCategoria
+                }).ToList();
+
+
+            ViewData["Categorias"] = categorias;
+
+            return View(productoDto); 
         }
-
-        // Guardar el producto en la base de datos
-        producto.FechaCreacionProducto = DateTime.Now;
-        _db.Productos.Add(producto);
-        _db.SaveChanges();
-
-        return RedirectToAction(nameof(VistaListaProductos));
-    }
-
-    // Si hay errores de validación, volver a cargar las categorías para el combo box
-    ViewData["Categorias"] = new SelectList(_db.Categorias, "CategoriaId", "NombreCategoria", producto.IdCategoria);
-
-    return View(producto); // Devuelve la vista con los errores
-}
 
 
 
@@ -107,26 +111,105 @@ public IActionResult RegistrarProducto(Producto producto, IFormFile Imagen)
                 return NotFound();
             }
             var obj = _db.Productos.Find(Id);
+
             if (obj == null)
             {
                 return NotFound();
             }
-            return View(obj);
+
+            ProductoDto productoDto = new ProductoDto();
+            productoDto.NombreProducto = obj.NombreProducto;
+            productoDto.DescripcionProducto = obj.DescripcionProducto;
+            productoDto.PrecioProducto = obj.PrecioProducto;
+            productoDto.IdCategoria = obj.IdCategoria;
+
+
+            ViewData["ImagenURLProducto"] = obj.ImagenURLProducto;
+
+            var categorias = _db.Categorias
+                .Select(c => new SelectListItem
+                {
+                    Value = c.IdCategoria.ToString(),
+                    Text = c.NombreCategoria
+                }).ToList();
+
+
+            ViewData["Categorias"] = categorias;
+            ViewData["IdProducto"] = obj.IdProducto;
+
+
+
+
+            return View(productoDto);
         }
 
 
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult ModificarProducto(Producto producto)
+        public IActionResult ModificarProducto(int IdProducto, ProductoDto productoDto)
         {
+            if (IdProducto == null || IdProducto == 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Productos.Find(IdProducto);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+
             if (ModelState.IsValid)
             {
-                _db.Productos.Update(producto);
+
+                string newImageFileName = obj.ImagenURLProducto;
+
+                if (productoDto.ImagenFile !=null)
+                {
+
+                    newImageFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                    newImageFileName += Path.GetExtension(productoDto.ImagenFile!.FileName);
+
+                    string imagenFileFullPath = environment.WebRootPath + "/ImagenesProductos/" + newImageFileName;
+
+                    using (var stream = System.IO.File.Create(imagenFileFullPath))
+                    {
+                        productoDto.ImagenFile.CopyTo(stream);
+                    }
+
+                    string oldImagenFileFullPath = environment.WebRootPath + "/ImagenesProductos/" + obj.ImagenURLProducto;
+                    System.IO.File.Delete(oldImagenFileFullPath);
+
+                }
+
+                obj.NombreProducto = productoDto.NombreProducto;
+                obj.DescripcionProducto = productoDto.DescripcionProducto;
+                obj.PrecioProducto = productoDto.PrecioProducto;
+                obj.IdCategoria = productoDto.IdCategoria;
+                obj.ImagenURLProducto = newImageFileName;
+
+
+                _db.Productos.Update(obj);
                 _db.SaveChanges();
                 return RedirectToAction(nameof(VistaListaProductos));
             }
-            return View(producto);
+
+            ViewData["ImagenURLProducto"] = obj.ImagenURLProducto;
+
+            var categorias = _db.Categorias
+                .Select(c => new SelectListItem
+                {
+                    Value = c.IdCategoria.ToString(),
+                    Text = c.NombreCategoria
+                }).ToList();
+
+
+            ViewData["Categorias"] = categorias;
+            ViewData["IdProducto"] = obj.IdProducto;
+
+
+            return View(productoDto);
         }
 
 
@@ -142,23 +225,59 @@ public IActionResult RegistrarProducto(Producto producto, IFormFile Imagen)
             {
                 return NotFound();
             }
-            return View(obj);
+
+            ProductoDto productoDto = new ProductoDto();
+            productoDto.NombreProducto = obj.NombreProducto;
+            productoDto.DescripcionProducto = obj.DescripcionProducto;
+            productoDto.PrecioProducto = obj.PrecioProducto;
+            productoDto.IdCategoria = obj.IdCategoria;
+
+
+            ViewData["ImagenURLProducto"] = obj.ImagenURLProducto;
+
+            var categorias = _db.Categorias
+                .Select(c => new SelectListItem
+                {
+                    Value = c.IdCategoria.ToString(),
+                    Text = c.NombreCategoria
+                }).ToList();
+
+
+            ViewData["Categorias"] = categorias;
+            ViewData["IdProducto"] = obj.IdProducto;
+
+
+            return View(productoDto);
         }
 
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult EliminarProducto(Producto producto)
+        public IActionResult EliminarProducto(int IdProducto, ProductoDto productoDto)
         {
-            if (producto == null)
+            if (IdProducto == null || IdProducto == 0)
             {
                 return NotFound();
             }
-            _db.Productos.Remove(producto);
-            _db.SaveChanges();
-            return RedirectToAction(nameof(VistaListaProductos));
+            var obj = _db.Productos.Find(IdProducto);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                string imagenFileFullPath = environment.WebRootPath + "/ImagenesProductos/" + obj.ImagenURLProducto;
+                System.IO.File.Delete(imagenFileFullPath);
+
+                _db.Productos.Remove(obj);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(VistaListaProductos));
+            }
+            
         }
 
     }
+
 }

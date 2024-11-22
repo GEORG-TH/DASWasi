@@ -78,7 +78,7 @@ namespace WebSiteWasi.Migrations
                     NombreProducto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     DescripcionProducto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     PrecioProducto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    IdCategoria = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdCategoria = table.Column<int>(type: "int", nullable: false),
                     ImagenURLProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaCreacionProducto = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -198,8 +198,8 @@ namespace WebSiteWasi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "498bab73-9a77-4401-8417-81e1abdee030", null, "CLIENT", "CLIENT" },
-                    { "bdeb58ba-2a98-492b-aa50-7ff5563709f3", null, "ADMIN", "ADMIN" }
+                    { "b247142b-2369-431a-884b-94c4eb2459ee", null, "CLIENT", "CLIENT" },
+                    { "e7cb4887-ba1a-4cac-958f-249fb77e8ab6", null, "ADMIN", "ADMIN" }
                 });
 
             migrationBuilder.CreateIndex(
