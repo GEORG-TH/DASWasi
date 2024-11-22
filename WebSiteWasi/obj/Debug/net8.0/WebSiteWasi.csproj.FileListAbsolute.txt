@@ -590,3 +590,4 @@ C:\Users\Georg\Documents\DISEÑO Y ARQUITECTURA\WebSiteWasi\WebSiteWasi\WebSiteW
 C:\Users\Georg\Documents\DISEÑO Y ARQUITECTURA\WebSiteWasi\WebSiteWasi\WebSiteWasi\obj\Debug\net8.0\WebSiteWasi.pdb
 C:\Users\Georg\Documents\DISEÑO Y ARQUITECTURA\WebSiteWasi\WebSiteWasi\WebSiteWasi\obj\Debug\net8.0\WebSiteWasi.genruntimeconfig.cache
 C:\Users\Georg\Documents\DISEÑO Y ARQUITECTURA\WebSiteWasi\WebSiteWasi\WebSiteWasi\obj\Debug\net8.0\ref\WebSiteWasi.dll
+C:\Users\Georg\Documents\DISEÑO Y ARQUITECTURA\WebSiteWasi\WebSiteWasi\WebSiteWasi\obj\Debug\net8.0\WebSiteWasi.sourcelink.json

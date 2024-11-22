@@ -1,7 +1,42 @@
-﻿
+﻿@model WebSiteWasi.Models.Categoria
 @{
     ViewData["Title"] = "VistaRegistrarCategoria";
 }
 
-<h1>VistaRegistrarCategoria</h1>
+<h1>Registrar Categoria</h1>
+
+<form method="post" asp-action="RegistrarCategoria">
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-info pl-3">Nueva Categoria</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="NombreCategoria" class="form-label">Nombre: </label>
+                    <input asp-for="NombreCategoria" class="form-control" />
+                    <span asp-validation-for="NombreCategoria" class="text-danger"></span>
+                </div>
+            </div>            
+            <br />
+
+            <div class="d-grid gap-2 d-md-block">
+
+                <button type="submit" class="btn btn-primary">Registrar</button>
+                <a asp-controller="Categoria" asp-action="VistaListaCategorias" class="btn btn-success">Regresar</a>
+
+            </div>
+
+
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+}
 

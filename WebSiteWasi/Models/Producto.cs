@@ -29,5 +29,8 @@ namespace WebSiteWasi.Models
 
         [Required(ErrorMessage = "Debe subir una imagen.")]
         public string ImagenURLProducto { get; set; } 
+
+
+        public DateTime FechaCreacionProducto { get; set; }
     }
 }
