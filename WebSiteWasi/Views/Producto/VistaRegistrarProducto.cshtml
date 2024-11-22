@@ -1,7 +1,81 @@
-﻿
+﻿@model WebSiteWasi.Models.Producto
 @{
     ViewData["Title"] = "VistaRegistrarProducto";
 }
 
-<h1>VistaRegistrarProducto</h1>
+<h1>Registrar Producto</h1>
+
+<form method="post" asp-action="RegistrarProducto" enctype="multipart/form-data">
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-info pl-3">Nuevo Producto</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="NombreProducto" class="form-label">Nombre: </label>
+                    <input asp-for="NombreProducto" class="form-control" />
+                    <span asp-validation-for="NombreProducto" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="DescripcionProducto" class="form-label">Descripcion: </label>
+                    <input asp-for="DescripcionProducto" class="form-control" />
+                    <span asp-validation-for="DescripcionProducto" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="PrecioProducto" class="form-label">Precio: </label>
+                    <input asp-for="PrecioProducto" class="form-control" />
+                    <span asp-validation-for="PrecioProducto" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <label asp-for="IdCategoria" class="control-label"></label>
+                    <select asp-for="IdCategoria" class="form-control" asp-items="@(ViewData["Categorias"] as IEnumerable<SelectListItem>)"></select>
+                    <span asp-validation-for="IdCategoria" class="text-danger"></span>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="Imagen" class="form-label">Imagen: </label>
+                    <input type="file" name="Imagen" class="form-control" />
+                    <span class="text-danger">@ViewData["ImagenError"] </span>
+                </div>
+            </div>
+
+
+
+
+            <br />
+
+            <div class="d-grid gap-2 d-md-block">
+
+                <button type="submit" class="btn btn-primary">Registrar</button>
+                <a asp-controller="Producto" asp-action="VistaListaProductos" class="btn btn-success">Regresar</a>
+
+            </div>
+
+
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+}
+
 

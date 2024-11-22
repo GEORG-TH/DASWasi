@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebSiteWasi.Migrations
 {
     /// <inheritdoc />
-    public partial class first : Migration
+    public partial class wasi : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -67,6 +67,24 @@ namespace WebSiteWasi.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Categorias", x => x.IdCategoria);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Productos",
+                columns: table => new
+                {
+                    IdProducto = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NombreProducto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    DescripcionProducto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    PrecioProducto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    IdCategoria = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImagenURLProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaCreacionProducto = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Productos", x => x.IdProducto);
                 });
 
             migrationBuilder.CreateTable(
@@ -180,8 +198,8 @@ namespace WebSiteWasi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "4a39cd25-84b3-4d73-b6d6-39e67b545fd4", null, "CLIENT", "CLIENT" },
-                    { "cef7ad76-ad89-4b92-961f-b147ba91cf73", null, "ADMIN", "ADMIN" }
+                    { "498bab73-9a77-4401-8417-81e1abdee030", null, "CLIENT", "CLIENT" },
+                    { "bdeb58ba-2a98-492b-aa50-7ff5563709f3", null, "ADMIN", "ADMIN" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -244,6 +262,9 @@ namespace WebSiteWasi.Migrations
 
             migrationBuilder.DropTable(
                 name: "Categorias");
+
+            migrationBuilder.DropTable(
+                name: "Productos");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

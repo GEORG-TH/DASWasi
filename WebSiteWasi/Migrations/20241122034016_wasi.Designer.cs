@@ -12,8 +12,8 @@ using WebSiteWasi.Datos;
 namespace WebSiteWasi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241121214344_first")]
-    partial class first
+    [Migration("20241122034016_wasi")]
+    partial class wasi
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,13 +54,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "cef7ad76-ad89-4b92-961f-b147ba91cf73",
+                            Id = "bdeb58ba-2a98-492b-aa50-7ff5563709f3",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "4a39cd25-84b3-4d73-b6d6-39e67b545fd4",
+                            Id = "498bab73-9a77-4401-8417-81e1abdee030",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -272,6 +272,43 @@ namespace WebSiteWasi.Migrations
                     b.HasKey("IdCategoria");
 
                     b.ToTable("Categorias");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Producto", b =>
+                {
+                    b.Property<int>("IdProducto")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProducto"));
+
+                    b.Property<string>("DescripcionProducto")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("FechaCreacionProducto")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IdCategoria")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImagenURLProducto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreProducto")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<decimal>("PrecioProducto")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("IdProducto");
+
+                    b.ToTable("Productos");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

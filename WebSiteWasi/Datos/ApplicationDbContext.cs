@@ -18,21 +18,21 @@ namespace WebSiteWasi.Datos
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-
-
-
-
             base.OnModelCreating(builder);
 
-            var admin = new IdentityRole("ADMIN");
+            
+            builder.Entity<Producto>()
+                .Property(p => p.PrecioProducto)
+                .HasColumnType("decimal(18,2)");  
 
+            
+            var admin = new IdentityRole("ADMIN");
             admin.NormalizedName = "ADMIN";
 
             var client = new IdentityRole("CLIENT");
-
             client.NormalizedName = "CLIENT";
 
-            builder.Entity<IdentityRole>().HasData(admin,client);
+            builder.Entity<IdentityRole>().HasData(admin, client);
         }
     }
 }

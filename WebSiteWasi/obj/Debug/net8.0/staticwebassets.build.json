@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mrfpMk7ZRQy7tZQMHENOBTVXLZPatA0NmsNQP8Q2SX0=",
+  "Hash": "o/7XzHOqeOUiSCLNrgPCge4DsV4SIvqPTD5ZmteToks=",
   "Source": "WebSiteWasi",
   "BasePath": "_content/WebSiteWasi",
   "Mode": "Default",
@@ -1359,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\001_LavadoraLG.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/001_LavadoraLG#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "31e0xnr9gv",
+      "Integrity": "+Ut6aiv4XWORtuujUEEhq3Q/5gXviXsdE8iL2kWbFzk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\001_LavadoraLG.jpg"
     },
     {
       "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
@@ -4961,6 +4982,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/001_LavadoraLG.31e0xnr9gv.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\001_LavadoraLG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Ut6aiv4XWORtuujUEEhq3Q/5gXviXsdE8iL2kWbFzk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 03:35:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "31e0xnr9gv"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/001_LavadoraLG.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Ut6aiv4XWORtuujUEEhq3Q/5gXviXsdE8iL2kWbFzk="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/001_LavadoraLG.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\001_LavadoraLG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Ut6aiv4XWORtuujUEEhq3Q/5gXviXsdE8iL2kWbFzk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 03:35:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Ut6aiv4XWORtuujUEEhq3Q/5gXviXsdE8iL2kWbFzk="
         }
       ]
     },

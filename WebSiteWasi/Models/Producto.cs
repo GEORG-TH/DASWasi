@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebSiteWasi.Models
 {
@@ -25,11 +26,11 @@ namespace WebSiteWasi.Models
         [Required(ErrorMessage = "Debe seleccionar una categoría.")]
         public string IdCategoria { get; set; }
 
-        public Categoria Categoria { get; set; }
+        
+
 
         [Required(ErrorMessage = "Debe subir una imagen.")]
         public string ImagenURLProducto { get; set; } 
-
 
         public DateTime FechaCreacionProducto { get; set; }
     }

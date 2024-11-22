@@ -11,6 +11,8 @@ namespace WebSiteWasi.Models
         [StringLength(50, ErrorMessage = "El nombre de la categoría no puede superar los 50 caracteres.")]
         public string NombreCategoria { get; set; }
 
+        private  ICollection<Producto> Productos { get; set; }
+
 
 
     }
