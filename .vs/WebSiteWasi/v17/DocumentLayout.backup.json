@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\",
+  "WorkspaceRootPath": "C:\\Users\\Biometric\\Desktop\\Das\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\ef_das\\websitewasi\\views\\producto\\vistapreeliminarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\vistapreeliminarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\ef_das\\websitewasi\\views\\categoria\\vistapreeliminarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\categoria\\vistapreeliminarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\ef_das\\websitewasi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\Migrations\\20241122231436_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteWasi\\Migrations\\20241122231436_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VistaPreEliminarProducto.cshtml",
-              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\Views\\Producto\\VistaPreEliminarProducto.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\VistaPreEliminarProducto.cshtml",
-              "ToolTip": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\Views\\Producto\\VistaPreEliminarProducto.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\VistaPreEliminarProducto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T18:36:06.46Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "WebSiteWasi\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAQwPkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T19:05:51.345Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebSiteWasi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\appsettings.json",
+              "RelativeToolTip": "WebSiteWasi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T23:14:40.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VistaPreEliminarCategoria.cshtml",
-              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\Views\\Categoria\\VistaPreEliminarCategoria.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Categoria\\VistaPreEliminarCategoria.cshtml",
-              "ToolTip": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\Views\\Categoria\\VistaPreEliminarCategoria.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Categoria\\VistaPreEliminarCategoria.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T18:43:00.933Z",
+              "Title": "20241122231436_wasi.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\Migrations\\20241122231436_wasi.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Migrations\\20241122231436_wasi.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\Migrations\\20241122231436_wasi.cs",
+              "RelativeToolTip": "WebSiteWasi\\Migrations\\20241122231436_wasi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:14:36.434Z",
               "EditorCaption": ""
             }
           ]

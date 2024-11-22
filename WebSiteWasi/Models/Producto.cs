@@ -15,10 +15,12 @@ namespace WebSiteWasi.Models
 
         public decimal PrecioProducto { get; set; }
 
-        public int IdCategoria { get; set; }
-
         public string ImagenURLProducto { get; set; } 
 
         public DateTime FechaCreacionProducto { get; set; }
+
+        public int IdCategoria { get; set; }
+
+        public Categoria Categoria { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZgyzro6wZs=",
+  "dgSpecHash": "cwkwkH6Y6i4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\WebSiteWasi.csproj",
+  "projectFilePath": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\WebSiteWasi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Biometric\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Biometric\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

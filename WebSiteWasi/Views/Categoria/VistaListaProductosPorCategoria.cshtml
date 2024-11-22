@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WebSiteWasi.Models.Producto>
+
+@{
+    ViewData["Title"] = "Lista de Productos por Categoría";
+}
+
+<div class="container pt-3">
+    <h2 class="text-primary">Productos en la Categoría: @Model.FirstOrDefault()?.Categoria?.NombreCategoria</h2>
+
+    <br />
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th class="text-black text-center">Id</th>
+                    <th class="text-black text-center">Nombre</th>
+                    <th class="text-black text-center">Descripción</th>
+                    <th class="text-black text-center">Precio</th>
+                    <th class="text-black text-center">Imagen</th>
+                    <th class="text-black text-center">Fecha de Creación</th>
+                    <th class="text-black text-center">Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">@item.IdProducto</td>
+                        <td class="text-center">@item.NombreProducto</td>
+                        <td class="text-center">@item.DescripcionProducto</td>
+                        <td class="text-center">@item.PrecioProducto.ToString("C")</td>
+                        <td class="text-center">
+                            @if (!string.IsNullOrEmpty(item.ImagenURLProducto))
+                            {
+                                <img src="@Url.Content("~/ImagenesProductos/" + item.ImagenURLProducto)" width="100" />
+                            }
+                            else
+                            {
+                                <span>No disponible</span>
+                            }
+                        </td>
+                        <td class="text-center">@item.FechaCreacionProducto.ToString("dd/MM/yyyy")</td>
+                        <td class="text-center">
+                            <div class="btn-group" role="group">
+                                <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
+                                <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No hay productos registrados en esta categoría.</p>
+    }
+</div>

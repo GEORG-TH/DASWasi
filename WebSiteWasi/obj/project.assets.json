@@ -8328,11 +8328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\WebSiteWasi.csproj",
+      "projectUniqueName": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\WebSiteWasi.csproj",
       "projectName": "WebSiteWasi",
-      "projectPath": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\WebSiteWasi.csproj",
+      "projectPath": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\WebSiteWasi.csproj",
       "packagesPath": "C:\\Users\\Biometric\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Biometric\\Desktop\\EF_DAS\\WebSiteWasi\\obj\\",
+      "outputPath": "C:\\Users\\Biometric\\Desktop\\Das\\WebSiteWasi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Biometric\\AppData\\Roaming\\NuGet\\NuGet.Config",

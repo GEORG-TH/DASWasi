@@ -51,13 +51,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "e7cb4887-ba1a-4cac-958f-249fb77e8ab6",
+                            Id = "38a6930d-6c90-4448-a383-d41af888bfc6",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "b247142b-2369-431a-884b-94c4eb2459ee",
+                            Id = "3e26742c-af24-4fcd-98f6-9f0d4e1ccd3f",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -257,7 +257,8 @@ namespace WebSiteWasi.Migrations
                 {
                     b.Property<int>("IdCategoria")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("IdCategoria");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCategoria"));
 
@@ -268,21 +269,21 @@ namespace WebSiteWasi.Migrations
 
                     b.HasKey("IdCategoria");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categorias", (string)null);
                 });
 
             modelBuilder.Entity("WebSiteWasi.Models.Producto", b =>
                 {
                     b.Property<int>("IdProducto")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("IdProducto");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProducto"));
 
                     b.Property<string>("DescripcionProducto")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaCreacionProducto")
                         .HasColumnType("datetime2");
@@ -296,15 +297,16 @@ namespace WebSiteWasi.Migrations
 
                     b.Property<string>("NombreProducto")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("PrecioProducto")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("IdProducto");
 
-                    b.ToTable("Productos");
+                    b.HasIndex("IdCategoria");
+
+                    b.ToTable("Productos", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -356,6 +358,23 @@ namespace WebSiteWasi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Producto", b =>
+                {
+                    b.HasOne("WebSiteWasi.Models.Categoria", "Categoria")
+                        .WithMany("Productos")
+                        .HasForeignKey("IdCategoria")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Producto_Categoria");
+
+                    b.Navigation("Categoria");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Categoria", b =>
+                {
+                    b.Navigation("Productos");
                 });
 #pragma warning restore 612, 618
         }

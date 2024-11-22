@@ -70,24 +70,6 @@ namespace WebSiteWasi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Productos",
-                columns: table => new
-                {
-                    IdProducto = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NombreProducto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    DescripcionProducto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    PrecioProducto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    IdCategoria = table.Column<int>(type: "int", nullable: false),
-                    ImagenURLProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FechaCreacionProducto = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Productos", x => x.IdProducto);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -193,13 +175,37 @@ namespace WebSiteWasi.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Productos",
+                columns: table => new
+                {
+                    IdProducto = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NombreProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DescripcionProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PrecioProducto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ImagenURLProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaCreacionProducto = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IdCategoria = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Productos", x => x.IdProducto);
+                    table.ForeignKey(
+                        name: "FK_Producto_Categoria",
+                        column: x => x.IdCategoria,
+                        principalTable: "Categorias",
+                        principalColumn: "IdCategoria",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "b247142b-2369-431a-884b-94c4eb2459ee", null, "CLIENT", "CLIENT" },
-                    { "e7cb4887-ba1a-4cac-958f-249fb77e8ab6", null, "ADMIN", "ADMIN" }
+                    { "38a6930d-6c90-4448-a383-d41af888bfc6", null, "ADMIN", "ADMIN" },
+                    { "3e26742c-af24-4fcd-98f6-9f0d4e1ccd3f", null, "CLIENT", "CLIENT" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -240,6 +246,11 @@ namespace WebSiteWasi.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Productos_IdCategoria",
+                table: "Productos",
+                column: "IdCategoria");
         }
 
         /// <inheritdoc />
@@ -261,9 +272,6 @@ namespace WebSiteWasi.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Categorias");
-
-            migrationBuilder.DropTable(
                 name: "Productos");
 
             migrationBuilder.DropTable(
@@ -271,6 +279,9 @@ namespace WebSiteWasi.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Categorias");
         }
     }
 }
