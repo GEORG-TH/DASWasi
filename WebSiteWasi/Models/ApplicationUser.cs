@@ -11,5 +11,13 @@ namespace WebSiteWasi.Models
         public string Direccion { get; set; } = "";
 
         public DateTime FechaCreacion { get; set; }
+
+
+
+        public Carrito Carrito { get; set; }
+
+
+
+        public ICollection<Compra>? Compras { get; set; }
     }
 }

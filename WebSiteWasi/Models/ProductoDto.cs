@@ -16,6 +16,10 @@ namespace WebSiteWasi.Models
         [Range(1, 10000, ErrorMessage = "El precio debe estar entre 1 y 10 000.")]
         public decimal PrecioProducto { get; set; }
 
+        [Required(ErrorMessage = "El stock del producto es obligatorio.")]
+        [Range(0, 1000, ErrorMessage = "El precio debe estar entre 0 y 1000.")]
+        public int StockProducto { get; set; }
+
         [Required(ErrorMessage = "Debe seleccionar una categoría.")]
         public int IdCategoria { get; set; }
 

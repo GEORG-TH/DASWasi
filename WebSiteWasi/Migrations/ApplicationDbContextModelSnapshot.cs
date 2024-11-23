@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebSiteWasi.Datos;
 
 #nullable disable
 
@@ -51,13 +50,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "38a6930d-6c90-4448-a383-d41af888bfc6",
+                            Id = "86857230-01e2-4aba-8df8-e70e78aa3551",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "3e26742c-af24-4fcd-98f6-9f0d4e1ccd3f",
+                            Id = "fcb349ad-f43d-4aaf-b879-bc45744edc0c",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -253,12 +252,60 @@ namespace WebSiteWasi.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("WebSiteWasi.Models.Carrito", b =>
+                {
+                    b.Property<int>("IdCarrito")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCarrito"));
+
+                    b.Property<DateTime>("FechaCreacionCarrito")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IdUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("IdCarrito");
+
+                    b.HasIndex("IdUsuario")
+                        .IsUnique();
+
+                    b.ToTable("Carritos");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.CarritoProducto", b =>
+                {
+                    b.Property<int>("IdCarritoProducto")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCarritoProducto"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdCarrito")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdProducto")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdCarritoProducto");
+
+                    b.HasIndex("IdCarrito");
+
+                    b.HasIndex("IdProducto");
+
+                    b.ToTable("CarritoProductos");
+                });
+
             modelBuilder.Entity("WebSiteWasi.Models.Categoria", b =>
                 {
                     b.Property<int>("IdCategoria")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("IdCategoria");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCategoria"));
 
@@ -269,15 +316,124 @@ namespace WebSiteWasi.Migrations
 
                     b.HasKey("IdCategoria");
 
-                    b.ToTable("Categorias", (string)null);
+                    b.ToTable("Categorias");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Compra", b =>
+                {
+                    b.Property<int>("IdCompra")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCompra"));
+
+                    b.Property<string>("ContactoCompra")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DireccionCompra")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaCreacionCompra")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("IdMetodoPago")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IdUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("TelefonoCompra")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TotalCompra")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("TotalProductoCompra")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdCompra");
+
+                    b.HasIndex("IdMetodoPago");
+
+                    b.HasIndex("IdUsuario");
+
+                    b.ToTable("Compras");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.DetalleCompra", b =>
+                {
+                    b.Property<int>("IdDetalleCompra")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDetalleCompra"));
+
+                    b.Property<int>("CantidadDetalleCompra")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CompraIdCompra")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdCompra")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdProducto")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductoIdProducto")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalDetalleCompra")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("IdDetalleCompra");
+
+                    b.HasIndex("CompraIdCompra");
+
+                    b.HasIndex("ProductoIdProducto");
+
+                    b.ToTable("DetalleCompras");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.MetodoPago", b =>
+                {
+                    b.Property<int>("IdMetodoPago")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdMetodoPago"));
+
+                    b.Property<string>("NombreMetodoPago")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("IdMetodoPago");
+
+                    b.ToTable("MetodoPagos");
+
+                    b.HasData(
+                        new
+                        {
+                            IdMetodoPago = 1,
+                            NombreMetodoPago = "EFECTIVO"
+                        },
+                        new
+                        {
+                            IdMetodoPago = 2,
+                            NombreMetodoPago = "TARJETA"
+                        });
                 });
 
             modelBuilder.Entity("WebSiteWasi.Models.Producto", b =>
                 {
                     b.Property<int>("IdProducto")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("IdProducto");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProducto"));
 
@@ -302,11 +458,14 @@ namespace WebSiteWasi.Migrations
                     b.Property<decimal>("PrecioProducto")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("StockProducto")
+                        .HasColumnType("int");
+
                     b.HasKey("IdProducto");
 
                     b.HasIndex("IdCategoria");
 
-                    b.ToTable("Productos", (string)null);
+                    b.ToTable("Productos");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -360,6 +519,75 @@ namespace WebSiteWasi.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("WebSiteWasi.Models.Carrito", b =>
+                {
+                    b.HasOne("WebSiteWasi.Models.ApplicationUser", "ApplicationUser")
+                        .WithOne("Carrito")
+                        .HasForeignKey("WebSiteWasi.Models.Carrito", "IdUsuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.CarritoProducto", b =>
+                {
+                    b.HasOne("WebSiteWasi.Models.Carrito", "Carrito")
+                        .WithMany("CarritoProductos")
+                        .HasForeignKey("IdCarrito")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebSiteWasi.Models.Producto", "Producto")
+                        .WithMany("CarritoProductos")
+                        .HasForeignKey("IdProducto")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Carrito");
+
+                    b.Navigation("Producto");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Compra", b =>
+                {
+                    b.HasOne("WebSiteWasi.Models.MetodoPago", "MetodoPago")
+                        .WithMany("Compras")
+                        .HasForeignKey("IdMetodoPago")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Compra_MetodoPago");
+
+                    b.HasOne("WebSiteWasi.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("Compras")
+                        .HasForeignKey("IdUsuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+
+                    b.Navigation("MetodoPago");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.DetalleCompra", b =>
+                {
+                    b.HasOne("WebSiteWasi.Models.Compra", "Compra")
+                        .WithMany("DetalleCompras")
+                        .HasForeignKey("CompraIdCompra")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebSiteWasi.Models.Producto", "Producto")
+                        .WithMany("DetalleCompras")
+                        .HasForeignKey("ProductoIdProducto")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Compra");
+
+                    b.Navigation("Producto");
+                });
+
             modelBuilder.Entity("WebSiteWasi.Models.Producto", b =>
                 {
                     b.HasOne("WebSiteWasi.Models.Categoria", "Categoria")
@@ -372,9 +600,39 @@ namespace WebSiteWasi.Migrations
                     b.Navigation("Categoria");
                 });
 
+            modelBuilder.Entity("WebSiteWasi.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Carrito")
+                        .IsRequired();
+
+                    b.Navigation("Compras");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Carrito", b =>
+                {
+                    b.Navigation("CarritoProductos");
+                });
+
             modelBuilder.Entity("WebSiteWasi.Models.Categoria", b =>
                 {
                     b.Navigation("Productos");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Compra", b =>
+                {
+                    b.Navigation("DetalleCompras");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.MetodoPago", b =>
+                {
+                    b.Navigation("Compras");
+                });
+
+            modelBuilder.Entity("WebSiteWasi.Models.Producto", b =>
+                {
+                    b.Navigation("CarritoProductos");
+
+                    b.Navigation("DetalleCompras");
                 });
 #pragma warning restore 612, 618
         }

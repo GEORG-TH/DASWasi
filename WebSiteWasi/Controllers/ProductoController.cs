@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.DotNet.Scaffolding.Shared.Messaging;
-using Microsoft.EntityFrameworkCore;
-using WebSiteWasi.Datos;
 using WebSiteWasi.Models;
 
 namespace WebSiteWasi.Controllers
@@ -79,6 +76,7 @@ namespace WebSiteWasi.Controllers
                 producto.NombreProducto = productoDto.NombreProducto;
                 producto.DescripcionProducto = productoDto.DescripcionProducto;
                 producto.PrecioProducto = productoDto.PrecioProducto;
+                producto.StockProducto = productoDto.StockProducto;
                 producto.IdCategoria = productoDto.IdCategoria;
                 producto.ImagenURLProducto = newImageFileName;
                 producto.FechaCreacionProducto = DateTime.Now;
@@ -121,6 +119,7 @@ namespace WebSiteWasi.Controllers
             productoDto.NombreProducto = obj.NombreProducto;
             productoDto.DescripcionProducto = obj.DescripcionProducto;
             productoDto.PrecioProducto = obj.PrecioProducto;
+            productoDto.StockProducto = obj.StockProducto;
             productoDto.IdCategoria = obj.IdCategoria;
 
 
@@ -186,6 +185,7 @@ namespace WebSiteWasi.Controllers
                 obj.NombreProducto = productoDto.NombreProducto;
                 obj.DescripcionProducto = productoDto.DescripcionProducto;
                 obj.PrecioProducto = productoDto.PrecioProducto;
+                obj.StockProducto = productoDto.StockProducto;
                 obj.IdCategoria = productoDto.IdCategoria;
                 obj.ImagenURLProducto = newImageFileName;
 
@@ -230,6 +230,7 @@ namespace WebSiteWasi.Controllers
             productoDto.NombreProducto = obj.NombreProducto;
             productoDto.DescripcionProducto = obj.DescripcionProducto;
             productoDto.PrecioProducto = obj.PrecioProducto;
+            productoDto.StockProducto = obj.StockProducto;
             productoDto.IdCategoria = obj.IdCategoria;
 
 

@@ -70,6 +70,19 @@ namespace WebSiteWasi.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "MetodoPagos",
+                columns: table => new
+                {
+                    IdMetodoPago = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NombreMetodoPago = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MetodoPagos", x => x.IdMetodoPago);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -176,6 +189,26 @@ namespace WebSiteWasi.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Carritos",
+                columns: table => new
+                {
+                    IdCarrito = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaCreacionCarrito = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IdUsuario = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Carritos", x => x.IdCarrito);
+                    table.ForeignKey(
+                        name: "FK_Carritos_AspNetUsers_IdUsuario",
+                        column: x => x.IdUsuario,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Productos",
                 columns: table => new
                 {
@@ -184,6 +217,7 @@ namespace WebSiteWasi.Migrations
                     NombreProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DescripcionProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PrecioProducto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    StockProducto = table.Column<int>(type: "int", nullable: false),
                     ImagenURLProducto = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaCreacionProducto = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IdCategoria = table.Column<int>(type: "int", nullable: false)
@@ -199,13 +233,111 @@ namespace WebSiteWasi.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Compras",
+                columns: table => new
+                {
+                    IdCompra = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    TotalProductoCompra = table.Column<int>(type: "int", nullable: false),
+                    TotalCompra = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ContactoCompra = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TelefonoCompra = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DireccionCompra = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaCreacionCompra = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IdMetodoPago = table.Column<int>(type: "int", nullable: false),
+                    IdUsuario = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Compras", x => x.IdCompra);
+                    table.ForeignKey(
+                        name: "FK_Compra_MetodoPago",
+                        column: x => x.IdMetodoPago,
+                        principalTable: "MetodoPagos",
+                        principalColumn: "IdMetodoPago",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Compras_AspNetUsers_IdUsuario",
+                        column: x => x.IdUsuario,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CarritoProductos",
+                columns: table => new
+                {
+                    IdCarritoProducto = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Cantidad = table.Column<int>(type: "int", nullable: false),
+                    IdCarrito = table.Column<int>(type: "int", nullable: false),
+                    IdProducto = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CarritoProductos", x => x.IdCarritoProducto);
+                    table.ForeignKey(
+                        name: "FK_CarritoProductos_Carritos_IdCarrito",
+                        column: x => x.IdCarrito,
+                        principalTable: "Carritos",
+                        principalColumn: "IdCarrito",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CarritoProductos_Productos_IdProducto",
+                        column: x => x.IdProducto,
+                        principalTable: "Productos",
+                        principalColumn: "IdProducto",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DetalleCompras",
+                columns: table => new
+                {
+                    IdDetalleCompra = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CantidadDetalleCompra = table.Column<int>(type: "int", nullable: false),
+                    TotalDetalleCompra = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    IdCompra = table.Column<int>(type: "int", nullable: false),
+                    CompraIdCompra = table.Column<int>(type: "int", nullable: false),
+                    IdProducto = table.Column<int>(type: "int", nullable: false),
+                    ProductoIdProducto = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DetalleCompras", x => x.IdDetalleCompra);
+                    table.ForeignKey(
+                        name: "FK_DetalleCompras_Compras_CompraIdCompra",
+                        column: x => x.CompraIdCompra,
+                        principalTable: "Compras",
+                        principalColumn: "IdCompra",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_DetalleCompras_Productos_ProductoIdProducto",
+                        column: x => x.ProductoIdProducto,
+                        principalTable: "Productos",
+                        principalColumn: "IdProducto",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "38a6930d-6c90-4448-a383-d41af888bfc6", null, "ADMIN", "ADMIN" },
-                    { "3e26742c-af24-4fcd-98f6-9f0d4e1ccd3f", null, "CLIENT", "CLIENT" }
+                    { "86857230-01e2-4aba-8df8-e70e78aa3551", null, "ADMIN", "ADMIN" },
+                    { "fcb349ad-f43d-4aaf-b879-bc45744edc0c", null, "CLIENT", "CLIENT" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "MetodoPagos",
+                columns: new[] { "IdMetodoPago", "NombreMetodoPago" },
+                values: new object[,]
+                {
+                    { 1, "EFECTIVO" },
+                    { 2, "TARJETA" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -248,6 +380,42 @@ namespace WebSiteWasi.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_CarritoProductos_IdCarrito",
+                table: "CarritoProductos",
+                column: "IdCarrito");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CarritoProductos_IdProducto",
+                table: "CarritoProductos",
+                column: "IdProducto");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Carritos_IdUsuario",
+                table: "Carritos",
+                column: "IdUsuario",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Compras_IdMetodoPago",
+                table: "Compras",
+                column: "IdMetodoPago");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Compras_IdUsuario",
+                table: "Compras",
+                column: "IdUsuario");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_DetalleCompras_CompraIdCompra",
+                table: "DetalleCompras",
+                column: "CompraIdCompra");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_DetalleCompras_ProductoIdProducto",
+                table: "DetalleCompras",
+                column: "ProductoIdProducto");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Productos_IdCategoria",
                 table: "Productos",
                 column: "IdCategoria");
@@ -272,10 +440,25 @@ namespace WebSiteWasi.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Productos");
+                name: "CarritoProductos");
+
+            migrationBuilder.DropTable(
+                name: "DetalleCompras");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
+
+            migrationBuilder.DropTable(
+                name: "Carritos");
+
+            migrationBuilder.DropTable(
+                name: "Compras");
+
+            migrationBuilder.DropTable(
+                name: "Productos");
+
+            migrationBuilder.DropTable(
+                name: "MetodoPagos");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebSiteWasi.Datos;
 using WebSiteWasi.Models;
 
 namespace WebSiteWasi.Controllers

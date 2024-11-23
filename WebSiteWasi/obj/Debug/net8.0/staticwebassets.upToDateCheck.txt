@@ -1,6 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\ImagenesProductos\001_LavadoraLG.jpg
+wwwroot\ImagenesProductos\20241122182317073.jfif
+wwwroot\ImagenesProductos\20241122182437897.jfif
+wwwroot\ImagenesProductos\20241122182458723.jfif
+wwwroot\ImagenesProductos\20241123104754611.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

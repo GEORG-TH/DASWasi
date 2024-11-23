@@ -1,58 +1,98 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebSiteWasi.Models;
 
-namespace WebSiteWasi.Datos
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public ApplicationDbContext(DbContextOptions options) : base(options)
     {
-        public ApplicationDbContext(DbContextOptions options) : base (options)
-        {
-            
-        }
-
-        public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Producto> Productos { get; set; }
-
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-
-            // Configuración de la relación entre Producto y Categoria
-            builder.Entity<Producto>()
-                .HasOne(p => p.Categoria) // Producto tiene una Categoria
-                .WithMany(c => c.Productos) // Categoria tiene muchos productos
-                .HasForeignKey(p => p.IdCategoria) // La clave foránea en Producto es IdCategoria
-                .HasConstraintName("FK_Producto_Categoria"); // Nombre de la restricción de la clave foránea
-
-            // Configuración del tipo de datos para el PrecioProducto
-            builder.Entity<Producto>()
-                .Property(p => p.PrecioProducto)
-                .HasColumnType("decimal(18,2)");
-
-            // (Opcional) Puedes definir convenciones de nombres si deseas personalizar más
-            builder.Entity<Categoria>()
-                .ToTable("Categorias")
-                .Property(c => c.IdCategoria)
-                .HasColumnName("IdCategoria");
-
-            builder.Entity<Producto>()
-                .ToTable("Productos")
-                .Property(p => p.IdProducto)
-                .HasColumnName("IdProducto");
-
-            // (Opcional) Si quieres personalizar los nombres de las columnas, puedes usar HasColumnName() también.
-
-            // Crear los roles de identidad (si es necesario)
-            var admin = new IdentityRole("ADMIN");
-            admin.NormalizedName = "ADMIN";
-
-            var client = new IdentityRole("CLIENT");
-            client.NormalizedName = "CLIENT";
-
-            builder.Entity<IdentityRole>().HasData(admin, client);
-        }
     }
+
+    public DbSet<Categoria> Categorias { get; set; }
+    public DbSet<Producto> Productos { get; set; }
+    public DbSet<Compra> Compras { get; set; }
+    public DbSet<MetodoPago> MetodoPagos { get; set; }
+    public DbSet<DetalleCompra> DetalleCompras { get; set; }
+    public DbSet<Carrito> Carritos { get; set; }
+    public DbSet<CarritoProducto> CarritoProductos { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        // Relación entre Compra y MetodoPago
+        builder.Entity<Compra>()
+            .HasOne(c => c.MetodoPago)
+            .WithMany(m => m.Compras)
+            .HasForeignKey(c => c.IdMetodoPago)
+            .HasConstraintName("FK_Compra_MetodoPago");
+
+        // Relación entre Producto y Categoria
+        builder.Entity<Producto>()
+            .HasOne(p => p.Categoria)
+            .WithMany(c => c.Productos)
+            .HasForeignKey(p => p.IdCategoria)
+            .HasConstraintName("FK_Producto_Categoria");
+
+        // Relación entre Compra y ApplicationUser
+        builder.Entity<Compra>()
+            .HasOne(c => c.ApplicationUser)
+            .WithMany(u => u.Compras)
+            .HasForeignKey(c => c.IdUsuario)
+            .OnDelete(DeleteBehavior.Cascade);
+
+
+        // Relación entre Carrito y ApplicationUser
+        builder.Entity<ApplicationUser>()
+            .HasOne(u => u.Carrito)  // Un usuario tiene un solo carrito
+            .WithOne(c => c.ApplicationUser)  // Un carrito pertenece a un solo usuario
+            .HasForeignKey<Carrito>(c => c.IdUsuario)  // La clave foránea en Carrito es IdUsuario
+            .OnDelete(DeleteBehavior.Cascade);  // Cuando se elimina el usuario, también se elimina el carrito
+
+
+        // Relación entre Carrito y CarritoProducto
+        builder.Entity<CarritoProducto>()
+            .HasOne(cp => cp.Carrito)
+            .WithMany(c => c.CarritoProductos)
+            .HasForeignKey(cp => cp.IdCarrito)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<CarritoProducto>()
+            .HasOne(cp => cp.Producto)
+            .WithMany(p => p.CarritoProductos)
+            .HasForeignKey(cp => cp.IdProducto)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Configuración de los tipos de datos
+        builder.Entity<Producto>()
+            .Property(p => p.PrecioProducto)
+            .HasColumnType("decimal(18,2)");
+
+        builder.Entity<DetalleCompra>()
+            .Property(c => c.TotalDetalleCompra)
+            .HasColumnType("decimal(18,2)");
+
+        builder.Entity<Compra>()
+            .Property(c => c.TotalCompra)
+            .HasColumnType("decimal(18,2)");
+
+        // Crear los roles de identidad
+        var admin = new IdentityRole("ADMIN");
+        admin.NormalizedName = "ADMIN";
+
+        var client = new IdentityRole("CLIENT");
+        client.NormalizedName = "CLIENT";
+
+        builder.Entity<IdentityRole>().HasData(admin, client);
+
+        // Crear los métodos de pago (Por defecto)
+        var efectivo = new MetodoPago(1, "EFECTIVO");
+        var tarjeta = new MetodoPago(2, "TARJETA");
+
+        builder.Entity<MetodoPago>().HasData(efectivo, tarjeta);
+    }
+
+
+
 }
