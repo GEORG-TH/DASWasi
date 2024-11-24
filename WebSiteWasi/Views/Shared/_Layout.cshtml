@@ -3,6 +3,7 @@
 
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
+@inject ApplicationDbContext _db
 
 <!DOCTYPE html>
 <html lang="en">
@@ -48,12 +49,36 @@
                             }
                             else if (User.IsInRole("CLIENT"))
                             {
-                              
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="Producto" asp-action="VistaListaProductos">
+                                                Ver Todo
+                                            </a>
+                                        </li>
+                                        <div class="dropdown-divider"></div>
+
+                                        @foreach (var categoria in _db.Categorias.ToList())
+                                        {
+                                            <li>
+                                                <a class="dropdown-item" asp-controller="Categoria" asp-action="VistaListaProductosPorCategoria" asp-route-id="@categoria.IdCategoria">
+                                                    @categoria.NombreCategoria
+                                                </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+
+
 
                             }
 
                         }
-                        
+
 
 
 
@@ -81,3 +106,17 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

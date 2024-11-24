@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cDb6KSJHFXPYsGaTnvYs+RPZjqFzWyLhGeRJ8jPTDvU=",
+  "Hash": "DivoZSIUl8cQlApwNka3Z7kZsuGrwtYmvEHT279h3SI=",
   "Source": "WebSiteWasi",
   "BasePath": "_content/WebSiteWasi",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WebSiteWasi\\wwwroot",
       "Source": "WebSiteWasi",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\Georg\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "WebSiteWasi#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "iqgLxCS+vPS5+V8LhHNORbmXu+8l7qC3imxXU5Vi67A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "WebSiteWasi#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "iqgLxCS+vPS5+V8LhHNORbmXu+8l7qC3imxXU5Vi67A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1361,75 +1361,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182317073.jfif",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193328572.jpg",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
-      "RelativePath": "ImagenesProductos/20241122182317073#[.{fingerprint}]?.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mx90xwhs5l",
-      "Integrity": "tnz15Uw1PEOVWbJ6I1Vl5Z5I9coLDYquJTpuSYRWYsk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241122182317073.jfif"
-    },
-    {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182437897.jfif",
-      "SourceId": "WebSiteWasi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
-      "BasePath": "_content/WebSiteWasi",
-      "RelativePath": "ImagenesProductos/20241122182437897#[.{fingerprint}]?.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "u4qz1o9mdg",
-      "Integrity": "8n8vexQL3wX9f0S5cBaGfg9y4rZQBVM5UWvznCkmdIg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241122182437897.jfif"
-    },
-    {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182458723.jfif",
-      "SourceId": "WebSiteWasi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
-      "BasePath": "_content/WebSiteWasi",
-      "RelativePath": "ImagenesProductos/20241122182458723#[.{fingerprint}]?.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gt3foq8w8e",
-      "Integrity": "FAFHgkJu2+lgwk5SzL5FyDJufCAVah15l8vAqr4ev5g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241122182458723.jfif"
-    },
-    {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123104754611.jpg",
-      "SourceId": "WebSiteWasi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
-      "BasePath": "_content/WebSiteWasi",
-      "RelativePath": "ImagenesProductos/20241123104754611#[.{fingerprint}]?.jpg",
+      "RelativePath": "ImagenesProductos/20241123193328572#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1442,13 +1379,118 @@
       "Integrity": "sw+pHFvuOmFWJM+4yimK5AWLr7Y14nTJ+usUAC+3EU8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123104754611.jpg"
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193328572.jpg"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193507743.jpg",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241123193507743#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b9623fevjd",
+      "Integrity": "L6tRmeLbAxsFla2dqAHjwqc+CiiAQQ7Wh+ovOy4OBcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193507743.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193530482.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241123193530482#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rq7jy06tph",
+      "Integrity": "DVCGO2euoEalNKL3XlmCnszSpDGyD7C8rMTLiloyxcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193530482.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193553947.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241123193553947#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iswkh7dlz1",
+      "Integrity": "/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193553947.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193617464.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241123193617464#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p6bqqvq9vi",
+      "Integrity": "IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193617464.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193708594.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241123193708594#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "woy2bo3c21",
+      "Integrity": "4Gj2r5/9M6TwYfrF9hg0pOP8Y4LKd4BOEmaXj9TmRP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193708594.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1466,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1529,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1550,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1697,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1739,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1781,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1802,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1823,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1865,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1886,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1907,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1928,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1949,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1970,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1991,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2012,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2033,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2054,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2075,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2096,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2117,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2138,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2159,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2180,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2201,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2222,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2243,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2264,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2285,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2306,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2327,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2348,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2369,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2390,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2411,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2432,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2453,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2474,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2495,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2516,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2537,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2558,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2579,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2600,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2621,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2642,10 +2684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
       "BasePath": "_content/WebSiteWasi",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2666,7 +2708,7 @@
   "Endpoints": [
     {
       "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2711,7 +2753,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2748,7 +2790,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2793,7 +2835,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5049,254 +5091,8 @@
       ]
     },
     {
-      "Route": "ImagenesProductos/20241122182317073.jfif",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182317073.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8839"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tnz15Uw1PEOVWbJ6I1Vl5Z5I9coLDYquJTpuSYRWYsk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:20:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tnz15Uw1PEOVWbJ6I1Vl5Z5I9coLDYquJTpuSYRWYsk="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/20241122182317073.mx90xwhs5l.jfif",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182317073.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8839"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tnz15Uw1PEOVWbJ6I1Vl5Z5I9coLDYquJTpuSYRWYsk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:20:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mx90xwhs5l"
-        },
-        {
-          "Name": "label",
-          "Value": "ImagenesProductos/20241122182317073.jfif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tnz15Uw1PEOVWbJ6I1Vl5Z5I9coLDYquJTpuSYRWYsk="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/20241122182437897.jfif",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182437897.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6197"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8n8vexQL3wX9f0S5cBaGfg9y4rZQBVM5UWvznCkmdIg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:20:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8n8vexQL3wX9f0S5cBaGfg9y4rZQBVM5UWvznCkmdIg="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/20241122182437897.u4qz1o9mdg.jfif",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182437897.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6197"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8n8vexQL3wX9f0S5cBaGfg9y4rZQBVM5UWvznCkmdIg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:20:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u4qz1o9mdg"
-        },
-        {
-          "Name": "label",
-          "Value": "ImagenesProductos/20241122182437897.jfif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8n8vexQL3wX9f0S5cBaGfg9y4rZQBVM5UWvznCkmdIg="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/20241122182458723.gt3foq8w8e.jfif",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182458723.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6619"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FAFHgkJu2+lgwk5SzL5FyDJufCAVah15l8vAqr4ev5g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:20:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gt3foq8w8e"
-        },
-        {
-          "Name": "label",
-          "Value": "ImagenesProductos/20241122182458723.jfif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FAFHgkJu2+lgwk5SzL5FyDJufCAVah15l8vAqr4ev5g="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/20241122182458723.jfif",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241122182458723.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6619"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FAFHgkJu2+lgwk5SzL5FyDJufCAVah15l8vAqr4ev5g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:20:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FAFHgkJu2+lgwk5SzL5FyDJufCAVah15l8vAqr4ev5g="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/20241123104754611.j41sntx02s.jpg",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123104754611.jpg",
+      "Route": "ImagenesProductos/20241123193328572.j41sntx02s.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193328572.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5317,7 +5113,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:47:54 GMT"
+          "Value": "Sun, 24 Nov 2024 00:33:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5331,7 +5127,7 @@
         },
         {
           "Name": "label",
-          "Value": "ImagenesProductos/20241123104754611.jpg"
+          "Value": "ImagenesProductos/20241123193328572.jpg"
         },
         {
           "Name": "integrity",
@@ -5340,8 +5136,8 @@
       ]
     },
     {
-      "Route": "ImagenesProductos/20241123104754611.jpg",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123104754611.jpg",
+      "Route": "ImagenesProductos/20241123193328572.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193328572.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5362,7 +5158,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 15:47:54 GMT"
+          "Value": "Sun, 24 Nov 2024 00:33:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5377,8 +5173,418 @@
       ]
     },
     {
+      "Route": "ImagenesProductos/20241123193507743.b9623fevjd.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193507743.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L6tRmeLbAxsFla2dqAHjwqc+CiiAQQ7Wh+ovOy4OBcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:35:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b9623fevjd"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241123193507743.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L6tRmeLbAxsFla2dqAHjwqc+CiiAQQ7Wh+ovOy4OBcs="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193507743.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193507743.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L6tRmeLbAxsFla2dqAHjwqc+CiiAQQ7Wh+ovOy4OBcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:35:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L6tRmeLbAxsFla2dqAHjwqc+CiiAQQ7Wh+ovOy4OBcs="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193530482.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193530482.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DVCGO2euoEalNKL3XlmCnszSpDGyD7C8rMTLiloyxcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:35:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DVCGO2euoEalNKL3XlmCnszSpDGyD7C8rMTLiloyxcE="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193530482.rq7jy06tph.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193530482.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DVCGO2euoEalNKL3XlmCnszSpDGyD7C8rMTLiloyxcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:35:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rq7jy06tph"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241123193530482.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DVCGO2euoEalNKL3XlmCnszSpDGyD7C8rMTLiloyxcE="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193553947.iswkh7dlz1.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193553947.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iswkh7dlz1"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241123193553947.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193553947.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193553947.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193617464.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193617464.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193617464.p6bqqvq9vi.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193617464.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p6bqqvq9vi"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241123193617464.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193708594.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193708594.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Gj2r5/9M6TwYfrF9hg0pOP8Y4LKd4BOEmaXj9TmRP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:37:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Gj2r5/9M6TwYfrF9hg0pOP8Y4LKd4BOEmaXj9TmRP0="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241123193708594.woy2bo3c21.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193708594.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Gj2r5/9M6TwYfrF9hg0pOP8Y4LKd4BOEmaXj9TmRP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 00:37:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "woy2bo3c21"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241123193708594.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Gj2r5/9M6TwYfrF9hg0pOP8Y4LKd4BOEmaXj9TmRP0="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5415,7 +5621,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5460,7 +5666,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5497,7 +5703,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5542,7 +5748,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5579,7 +5785,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5624,7 +5830,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5661,7 +5867,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5706,7 +5912,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5743,7 +5949,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5788,7 +5994,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5825,7 +6031,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5870,7 +6076,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5907,7 +6113,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5952,7 +6158,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5989,7 +6195,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6034,7 +6240,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6071,7 +6277,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6116,7 +6322,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6161,7 +6367,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6198,7 +6404,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6235,7 +6441,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6280,7 +6486,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6317,7 +6523,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6362,7 +6568,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6399,7 +6605,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6444,7 +6650,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6481,7 +6687,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6526,7 +6732,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6563,7 +6769,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6600,7 +6806,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6637,7 +6843,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6682,7 +6888,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6727,7 +6933,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6772,7 +6978,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6817,7 +7023,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6854,7 +7060,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6899,7 +7105,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6936,7 +7142,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6973,7 +7179,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7010,7 +7216,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7055,7 +7261,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7100,7 +7306,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7145,7 +7351,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7182,7 +7388,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7227,7 +7433,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7264,7 +7470,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7301,7 +7507,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7338,7 +7544,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7383,7 +7589,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7428,7 +7634,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7465,7 +7671,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7510,7 +7716,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7547,7 +7753,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7592,7 +7798,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7629,7 +7835,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7666,7 +7872,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7711,7 +7917,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7756,7 +7962,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7793,7 +7999,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7838,7 +8044,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7875,7 +8081,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7912,7 +8118,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7957,7 +8163,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7994,7 +8200,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8039,7 +8245,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8084,7 +8290,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8121,7 +8327,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8166,7 +8372,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8203,7 +8409,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8248,7 +8454,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8293,7 +8499,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8330,7 +8536,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8375,7 +8581,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8412,7 +8618,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8449,7 +8655,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8494,7 +8700,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8531,7 +8737,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8576,7 +8782,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8613,7 +8819,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8650,7 +8856,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8695,7 +8901,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8740,7 +8946,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8777,7 +8983,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8822,7 +9028,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8859,7 +9065,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8896,7 +9102,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8933,7 +9139,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8978,7 +9184,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9023,7 +9229,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9068,7 +9274,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9105,7 +9311,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9150,7 +9356,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9195,7 +9401,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9232,7 +9438,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9277,7 +9483,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9322,7 +9528,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9359,7 +9565,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9396,7 +9602,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9441,7 +9647,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9478,7 +9684,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9523,7 +9729,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9560,7 +9766,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9605,7 +9811,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9642,7 +9848,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9679,7 +9885,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9724,7 +9930,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9761,7 +9967,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9806,7 +10012,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9843,7 +10049,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9888,7 +10094,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9933,7 +10139,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9970,7 +10176,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10015,7 +10221,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10052,7 +10258,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10097,7 +10303,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10134,7 +10340,7 @@
     },
     {
       "Route": "WebSiteWasi.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10171,7 +10377,7 @@
     },
     {
       "Route": "WebSiteWasi.styles.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10208,7 +10414,7 @@
     },
     {
       "Route": "WebSiteWasi.y5yao9frz8.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10253,7 +10459,7 @@
     },
     {
       "Route": "WebSiteWasi.y5yao9frz8.styles.css",
-      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteWasi.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

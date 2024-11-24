@@ -8329,11 +8329,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi.csproj",
+      "projectUniqueName": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi.csproj",
       "projectName": "WebSiteWasi",
-      "projectPath": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi.csproj",
+      "projectPath": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi.csproj",
       "packagesPath": "C:\\Users\\Georg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\WebSiteWasi\\obj\\",
+      "outputPath": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

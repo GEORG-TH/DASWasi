@@ -8,9 +8,14 @@
         <div class="col-6">
             <h2 class="text-primary">Lista de Productos</h2>
         </div>
-        <div class="col-6">
-            <a asp-controller="Producto" asp-action="VistaRegistrarProducto" class="btn btn-primary">Nueva Producto</a>
-        </div>
+        @if (User.IsInRole("ADMIN"))
+        {
+            <div class="col-6">
+                <a asp-controller="Producto" asp-action="VistaRegistrarProducto" class="btn btn-primary">Nuevo Producto</a>
+            </div>
+            
+        }
+
     </div>
     <br />
 
@@ -28,9 +33,6 @@
                     <th class="text-black text-center">Imagen</th>
                     <th class="text-black text-center">Fecha de Creacion</th>
                     <th class="text-black text-center">Acciones</th>
-
-
-
                 </tr>
             </thead>
 
@@ -38,24 +40,32 @@
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <th width="10%" class="text-center">@item.IdProducto</th>
-                        <th width="40%" class="text-center">@item.NombreProducto</th>
-                        <th width="40%" class="text-center">@item.DescripcionProducto</th>
-                        <th width="40%" class="text-center">@item.PrecioProducto</th>
-                        <th width="40%" class="text-center">@item.StockProducto</th>
-                        <th width="40%" class="text-center">@item.IdCategoria</th>
-                        <th width="40%" class="text-center"> <img src="/ImagenesProductos/@item.ImagenURLProducto" width="100" /> </th>
-                        <th width="40%" class="text-center">@item.FechaCreacionProducto.ToString("dd/MM/yyyy")</th>
+                        <th width="2%" class="text-center">@item.IdProducto</th>
+                        <th width="5%" class="text-center">@item.NombreProducto</th>
+                        <th width="10%" class="text-center">@item.DescripcionProducto</th>
+                        <th width="2%" class="text-center">@item.PrecioProducto</th>
+                        <th width="2%" class="text-center">@item.StockProducto</th>
+                        <th width="2%" class="text-center">@item.IdCategoria</th>
+                        <th width="20%" class="text-center">
+                            <img src="/ImagenesProductos/@item.ImagenURLProducto" width="100" />
+                        </th>
+                        <th width="30%" class="text-center">@item.FechaCreacionProducto.ToString("dd/MM/yyyy")</th>
 
-                        <th width="90%" class="text-center">
+                        <th width="50%" class="text-center">
                             <div class="m-75 btn-group" role="group">
-                                <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
-                                <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
+                                @if (User.IsInRole("CLIENT"))
+                                {
+                                    <a asp-controller="Carrito" asp-action="AgregarAlCarrito" asp-route-id="@item.IdProducto" class="btn btn-success mx-2">Agregar al Carrito</a>
+                                }
+                                else if (User.IsInRole("ADMIN"))
+                                {
+                                    <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
+                                    <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
+                                }
                             </div>
                         </th>
                     </tr>
                 }
-
             </tbody>
         </table>
     }
@@ -63,6 +73,4 @@
     {
         <p>No hay registros de Productos</p>
     }
-
 </div>
-

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace WebSiteWasi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241123233400_wasi")]
+    [Migration("20241124230411_wasi")]
     partial class wasi
     {
         /// <inheritdoc />
@@ -53,13 +53,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "86857230-01e2-4aba-8df8-e70e78aa3551",
+                            Id = "b6ccae26-9e82-48a7-986d-e184989235a0",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "fcb349ad-f43d-4aaf-b879-bc45744edc0c",
+                            Id = "57326896-45a7-40b1-a496-198f3bfbf628",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });

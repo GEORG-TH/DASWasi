@@ -327,8 +327,8 @@ namespace WebSiteWasi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "86857230-01e2-4aba-8df8-e70e78aa3551", null, "ADMIN", "ADMIN" },
-                    { "fcb349ad-f43d-4aaf-b879-bc45744edc0c", null, "CLIENT", "CLIENT" }
+                    { "57326896-45a7-40b1-a496-198f3bfbf628", null, "CLIENT", "CLIENT" },
+                    { "b6ccae26-9e82-48a7-986d-e184989235a0", null, "ADMIN", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(

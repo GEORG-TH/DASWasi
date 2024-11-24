@@ -19,7 +19,7 @@ namespace WebSiteWasi.Controllers
             this.environment = environment; 
         }
 
-        [Authorize(Roles = "ADMIN")]
+        [Authorize(Roles = "ADMIN,CLIENT")]
         public IActionResult VistaListaProductos()
         {
             IEnumerable<Producto> lista = _db.Productos;
