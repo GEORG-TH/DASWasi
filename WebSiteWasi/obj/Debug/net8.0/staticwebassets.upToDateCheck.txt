@@ -10,6 +10,10 @@ wwwroot\ImagenesProductos\20241124185247343.jpg
 wwwroot\ImagenesProductos\20241124201250944.jpg
 wwwroot\ImagenesProductos\20241124233342781.png
 wwwroot\ImagenesProductos\20241124233420589.jpg
+wwwroot\ImagenesProductos\20241124234418500.jpg
+wwwroot\ImagenesProductos\20241124234430917.jpg
+wwwroot\ImagenesProductos\20241124235456353.jpg
+wwwroot\ImagenesProductos\20241125000014849.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebSiteWasi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b6bbfd00ced732f558c4378bde932f986979fdc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65796f32d7dfb57f0ee0637b5a5ffad2af5c93e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebSiteWasi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebSiteWasi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
