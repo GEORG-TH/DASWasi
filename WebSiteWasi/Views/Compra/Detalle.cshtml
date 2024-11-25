@@ -1,0 +1,58 @@
+﻿@model WebSiteWasi.Models.Compra
+
+@{
+    ViewData["Title"] = "Detalle de Compra";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Verificar si el modelo es nulo -->
+@if (Model == null)
+{
+    <p>No se encontró la compra.</p>
+}
+else
+{
+    <!-- Información general de la compra -->
+    <p><strong>Compra ID:</strong> @Model.IdCompra</p>
+    <p><strong>Total Compra:</strong> @Model.TotalCompra</p>
+    <p><strong>Fecha de Creación:</strong> @Model.FechaCreacionCompra.ToString("dd/MM/yyyy")</p>
+    <p><strong>Contacto:</strong> @Model.ContactoCompra</p>
+    <p><strong>Dirección:</strong> @Model.DireccionCompra</p>
+    <p><strong>Teléfono:</strong> @Model.TelefonoCompra</p>
+
+    <!-- Verificar si el Método de Pago está disponible -->
+    <p><strong>Método de Pago:</strong> @(Model.MetodoPago != null ? Model.MetodoPago.NombreMetodoPago : "No disponible")</p>
+
+    <h3>Productos</h3>
+
+    <!-- Verificar si los Detalles de Compra están disponibles -->
+    @if (Model.DetalleCompras != null && Model.DetalleCompras.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id Detalle Compra</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detalle in Model.DetalleCompras)
+                {
+                    <tr>
+                        <td>@detalle.IdDetalleCompra</td>
+                        <td>@detalle.Producto.NombreProducto</td>
+                        <td>@detalle.CantidadDetalleCompra</td>
+                        <td>@detalle.TotalDetalleCompra</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No hay productos en esta compra.</p>
+    }
+}

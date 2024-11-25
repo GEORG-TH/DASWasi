@@ -1,0 +1,33 @@
+﻿@model IEnumerable<WebSiteWasi.Models.Compra>
+
+@{
+    ViewData["Title"] = "Mis Compras";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>IdCompra</th>
+            <th>Total Producto Compra</th>
+            <th>Fecha Creación</th>
+            <th>Metodo de Pago</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var compra in Model)
+        {
+            <tr>
+                <td>@compra.IdCompra</td>
+                <td>@compra.TotalProductoCompra</td>
+                <td>@compra.FechaCreacionCompra.ToString("dd/MM/yyyy")</td>
+                <td>@compra.MetodoPago.NombreMetodoPago</td>
+                <td>
+                    <a href="@Url.Action("Detalle", "Compra", new { id = compra.IdCompra })" class="btn btn-info">Ver Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

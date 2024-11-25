@@ -17,6 +17,66 @@ namespace WebSiteWasi.Controllers
             _userManager = userManager;
         }
 
+        // Acción para ver todas las compras del usuario
+        public async Task<IActionResult> Index()
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var compras = await _context.Compras
+                .Where(c => c.IdUsuario == user.Id)
+                .Include(c => c.MetodoPago)
+                .OrderByDescending(c => c.FechaCreacionCompra)
+                .ToListAsync();
+
+            return View(compras);
+        }
+
+        public async Task<IActionResult> Detalle(int id)
+        {
+            var compra = await _context.Compras
+                .Include(c => c.DetalleCompras)          // Incluye los detalles de la compra
+                .ThenInclude(d => d.Producto)            // Incluye el producto relacionado
+                .Include(c => c.MetodoPago)              // Incluye el método de pago relacionado
+                .FirstOrDefaultAsync(c => c.IdCompra == id);  // Obtiene la compra por ID
+
+            // Verificamos si la compra es nula o si no tiene detalles
+            if (compra == null || compra.DetalleCompras == null || compra.MetodoPago == null)
+            {
+                return NotFound();  // Si la compra no existe o tiene datos incompletos, devuelve un 404
+            }
+
+            return View(compra);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // GET: ConfirmarCompra
         public async Task<IActionResult> ConfirmarCompra()
