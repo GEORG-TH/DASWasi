@@ -50,13 +50,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b6ccae26-9e82-48a7-986d-e184989235a0",
+                            Id = "52842f42-18ab-407b-8bab-9b2ff28c1d53",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "57326896-45a7-40b1-a496-198f3bfbf628",
+                            Id = "de420365-562a-41fe-821a-de6c141bec05",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -375,16 +375,10 @@ namespace WebSiteWasi.Migrations
                     b.Property<int>("CantidadDetalleCompra")
                         .HasColumnType("int");
 
-                    b.Property<int>("CompraIdCompra")
-                        .HasColumnType("int");
-
                     b.Property<int>("IdCompra")
                         .HasColumnType("int");
 
                     b.Property<int>("IdProducto")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductoIdProducto")
                         .HasColumnType("int");
 
                     b.Property<decimal>("TotalDetalleCompra")
@@ -392,9 +386,9 @@ namespace WebSiteWasi.Migrations
 
                     b.HasKey("IdDetalleCompra");
 
-                    b.HasIndex("CompraIdCompra");
+                    b.HasIndex("IdCompra");
 
-                    b.HasIndex("ProductoIdProducto");
+                    b.HasIndex("IdProducto");
 
                     b.ToTable("DetalleCompras");
                 });
@@ -573,14 +567,14 @@ namespace WebSiteWasi.Migrations
                 {
                     b.HasOne("WebSiteWasi.Models.Compra", "Compra")
                         .WithMany("DetalleCompras")
-                        .HasForeignKey("CompraIdCompra")
+                        .HasForeignKey("IdCompra")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("WebSiteWasi.Models.Producto", "Producto")
                         .WithMany("DetalleCompras")
-                        .HasForeignKey("ProductoIdProducto")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("IdProducto")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Compra");

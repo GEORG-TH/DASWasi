@@ -301,25 +301,23 @@ namespace WebSiteWasi.Migrations
                     CantidadDetalleCompra = table.Column<int>(type: "int", nullable: false),
                     TotalDetalleCompra = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     IdCompra = table.Column<int>(type: "int", nullable: false),
-                    CompraIdCompra = table.Column<int>(type: "int", nullable: false),
-                    IdProducto = table.Column<int>(type: "int", nullable: false),
-                    ProductoIdProducto = table.Column<int>(type: "int", nullable: false)
+                    IdProducto = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_DetalleCompras", x => x.IdDetalleCompra);
                     table.ForeignKey(
-                        name: "FK_DetalleCompras_Compras_CompraIdCompra",
-                        column: x => x.CompraIdCompra,
+                        name: "FK_DetalleCompras_Compras_IdCompra",
+                        column: x => x.IdCompra,
                         principalTable: "Compras",
                         principalColumn: "IdCompra",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_DetalleCompras_Productos_ProductoIdProducto",
-                        column: x => x.ProductoIdProducto,
+                        name: "FK_DetalleCompras_Productos_IdProducto",
+                        column: x => x.IdProducto,
                         principalTable: "Productos",
                         principalColumn: "IdProducto",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.InsertData(
@@ -327,8 +325,8 @@ namespace WebSiteWasi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "57326896-45a7-40b1-a496-198f3bfbf628", null, "CLIENT", "CLIENT" },
-                    { "b6ccae26-9e82-48a7-986d-e184989235a0", null, "ADMIN", "ADMIN" }
+                    { "52842f42-18ab-407b-8bab-9b2ff28c1d53", null, "ADMIN", "ADMIN" },
+                    { "de420365-562a-41fe-821a-de6c141bec05", null, "CLIENT", "CLIENT" }
                 });
 
             migrationBuilder.InsertData(
@@ -406,14 +404,14 @@ namespace WebSiteWasi.Migrations
                 column: "IdUsuario");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DetalleCompras_CompraIdCompra",
+                name: "IX_DetalleCompras_IdCompra",
                 table: "DetalleCompras",
-                column: "CompraIdCompra");
+                column: "IdCompra");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DetalleCompras_ProductoIdProducto",
+                name: "IX_DetalleCompras_IdProducto",
                 table: "DetalleCompras",
-                column: "ProductoIdProducto");
+                column: "IdProducto");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Productos_IdCategoria",

@@ -40,6 +40,8 @@
         </table>
 
         <h3>Total: @Model.CarritoProductos.Sum(cp => cp.Producto.PrecioProducto * cp.Cantidad)</h3>
+        <!-- Botón para realizar la compra -->
+        <a href="@Url.Action("ConfirmarCompra", "Compra")" class="btn btn-success">Realizar Compra</a>
     }
     else
     {

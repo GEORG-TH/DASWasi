@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Confirmar Compra";
+}
+
+<div class="container pt-3">
+    <h2 class="text-primary">Confirmar Compra</h2>
+
+    <form method="post" enctype="multipart/form-data">
+        <!-- Mostrar los datos del usuario -->
+        <div class="mb-3">
+            <label for="contactoCompra" class="form-label">Contacto</label>
+            <input type="text" class="form-control" id="contactoCompra" name="contactoCompra" value="@ViewData["ContactoCompra"]" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label for="telefonoCompra" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="telefonoCompra" name="telefonoCompra" value="@ViewData["TelefonoCompra"]" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label for="direccionCompra" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="direccionCompra" name="direccionCompra" value="@ViewData["DireccionCompra"]" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label for="metodoPago" class="form-label">Método de Pago</label>
+            <select class="form-select" id="metodoPago" name="idMetodoPago">
+                @foreach (var metodo in ViewData["MetodosPago"] as List<SelectListItem>)
+                {
+                    <option value="@metodo.Value">@metodo.Text</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="totalCompra" class="form-label">Total</label>
+            <input type="text" class="form-control" id="totalCompra" value="@ViewData["TotalCompra"]" readonly />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Confirmar Compra</button>
+        <a href="@Url.Action("Index", "Producto")" class="btn btn-secondary">Regresar</a>
+    </form>
+</div>

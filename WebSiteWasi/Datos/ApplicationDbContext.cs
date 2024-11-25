@@ -17,6 +17,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Carrito> Carritos { get; set; }
     public DbSet<CarritoProducto> CarritoProductos { get; set; }
 
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -28,12 +29,16 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             .HasForeignKey(c => c.IdMetodoPago)
             .HasConstraintName("FK_Compra_MetodoPago");
 
+
+
         // Relación entre Producto y Categoria
         builder.Entity<Producto>()
             .HasOne(p => p.Categoria)
             .WithMany(c => c.Productos)
             .HasForeignKey(p => p.IdCategoria)
             .HasConstraintName("FK_Producto_Categoria");
+
+
 
         // Relación entre Compra y ApplicationUser
         builder.Entity<Compra>()
@@ -43,12 +48,16 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             .OnDelete(DeleteBehavior.Cascade);
 
 
+
+
         // Relación entre Carrito y ApplicationUser
         builder.Entity<ApplicationUser>()
             .HasOne(u => u.Carrito)  // Un usuario tiene un solo carrito
             .WithOne(c => c.ApplicationUser)  // Un carrito pertenece a un solo usuario
             .HasForeignKey<Carrito>(c => c.IdUsuario)  // La clave foránea en Carrito es IdUsuario
             .OnDelete(DeleteBehavior.Cascade);  // Cuando se elimina el usuario, también se elimina el carrito
+
+
 
 
         // Relación entre Carrito y CarritoProducto
@@ -63,6 +72,23 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             .WithMany(p => p.CarritoProductos)
             .HasForeignKey(cp => cp.IdProducto)
             .OnDelete(DeleteBehavior.Restrict);
+
+
+        builder.Entity<DetalleCompra>()
+            .HasOne(d => d.Producto)
+            .WithMany(p => p.DetalleCompras)
+            .HasForeignKey(d => d.IdProducto)
+            .OnDelete(DeleteBehavior.Restrict);  // Asegúrate de que no se eliminen productos al eliminar detalles de compra
+
+        builder.Entity<DetalleCompra>()
+    .HasOne(d => d.Compra)
+    .WithMany(c => c.DetalleCompras)
+    .HasForeignKey(d => d.IdCompra)
+    .OnDelete(DeleteBehavior.Cascade);  // Cuando se elimina la compra, se eliminan los detalles de la compra
+
+
+
+
 
         // Configuración de los tipos de datos
         builder.Entity<Producto>()

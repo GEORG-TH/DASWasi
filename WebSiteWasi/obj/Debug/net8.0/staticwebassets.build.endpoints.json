@@ -2879,6 +2879,170 @@
       ]
     },
     {
+      "Route": "ImagenesProductos/20241124233342781.lzs6jfx2o7.png",
+      "AssetFile": "ImagenesProductos/20241124233342781.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "375393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QfdMPKnVFxVExVztWZ6CKW1FzibuZMiZCAnBnzmAyWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:33:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lzs6jfx2o7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QfdMPKnVFxVExVztWZ6CKW1FzibuZMiZCAnBnzmAyWM="
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241124233342781.png"
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124233342781.png",
+      "AssetFile": "ImagenesProductos/20241124233342781.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "375393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QfdMPKnVFxVExVztWZ6CKW1FzibuZMiZCAnBnzmAyWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:33:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QfdMPKnVFxVExVztWZ6CKW1FzibuZMiZCAnBnzmAyWM="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124233420589.iswkh7dlz1.jpg",
+      "AssetFile": "ImagenesProductos/20241124233420589.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:34:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iswkh7dlz1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M="
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241124233420589.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124233420589.jpg",
+      "AssetFile": "ImagenesProductos/20241124233420589.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:34:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M="
+        }
+      ]
+    },
+    {
       "Route": "WebSiteWasi.styles.css",
       "AssetFile": "WebSiteWasi.styles.css",
       "Selectors": [],
