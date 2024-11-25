@@ -6,6 +6,8 @@ wwwroot\ImagenesProductos\20241123193530482.jpg
 wwwroot\ImagenesProductos\20241123193553947.jpg
 wwwroot\ImagenesProductos\20241123193617464.jpg
 wwwroot\ImagenesProductos\20241123193708594.jpg
+wwwroot\ImagenesProductos\20241124185247343.jpg
+wwwroot\ImagenesProductos\20241124201250944.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

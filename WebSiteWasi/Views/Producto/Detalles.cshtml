@@ -1,0 +1,75 @@
+﻿@model WebSiteWasi.Models.Producto
+@{
+    ViewData["Title"] = "Detalles del Producto";
+}
+
+<div class="container pt-3">
+    <h2 class="text-primary">@Model.NombreProducto</h2>
+    <p><strong>Descripción:</strong> @Model.DescripcionProducto</p>
+    <p><strong>Precio:</strong> @Model.PrecioProducto</p>
+    <p><strong>Stock disponible:</strong> @Model.StockProducto</p>
+
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cantidadModal" data-producto-id="@Model.IdProducto" data-producto-nombre="@Model.NombreProducto" data-producto-precio="@Model.PrecioProducto">Agregar al Carrito</button>
+</div>
+
+<!-- Modal para seleccionar la cantidad -->
+<div class="modal fade" id="cantidadModal" tabindex="-1" aria-labelledby="cantidadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cantidadModalLabel">Selecciona la cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="number" id="cantidadInput" class="form-control" value="1" min="1" />
+                <input type="hidden" id="productoId" value="@Model.IdProducto" />
+                <input type="hidden" id="productoNombre" value="@Model.NombreProducto" />
+                <input type="hidden" id="productoPrecio" value="@Model.PrecioProducto" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="confirmarBtn">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var productoId, productoNombre, productoPrecio;
+
+        // Llenar el modal con la información del producto
+        $('#cantidadModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Botón que activó el modal
+            productoId = button.data('producto-id');
+            productoNombre = button.data('producto-nombre');
+            productoPrecio = button.data('producto-precio');
+
+            // Asignar los valores al modal
+            $('#productoId').val(productoId);
+            $('#productoNombre').val(productoNombre);
+            $('#productoPrecio').val(productoPrecio);
+        });
+
+        // Confirmar y agregar al carrito
+        $('#confirmarBtn').on('click', function () {
+            var cantidad = $('#cantidadInput').val();
+            if (cantidad > 0) {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("AgregarAlCarrito", "Carrito")',
+                    data: {
+                        productoId: productoId,
+                        cantidad: cantidad
+                    },
+                    success: function (response) {
+                        $('#cantidadModal').modal('hide');
+                        location.reload(); // Recargar la página para actualizar el contador de productos en el carrito
+                    }
+                });
+            } else {
+                alert("La cantidad debe ser mayor a 0.");
+            }
+        });
+    </script>
+}

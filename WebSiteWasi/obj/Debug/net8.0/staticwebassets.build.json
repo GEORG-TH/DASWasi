@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DivoZSIUl8cQlApwNka3Z7kZsuGrwtYmvEHT279h3SI=",
+  "Hash": "cnGOpGM4LLy5p6YqtsYjIDwf1bHu+TJ5XSMVg9Qn8iU=",
   "Source": "WebSiteWasi",
   "BasePath": "_content/WebSiteWasi",
   "Mode": "Default",
@@ -1485,6 +1485,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241123193708594.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124185247343.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241124185247343#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p6bqqvq9vi",
+      "Integrity": "IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241124185247343.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124201250944.jpg",
+      "SourceId": "WebSiteWasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\",
+      "BasePath": "_content/WebSiteWasi",
+      "RelativePath": "ImagenesProductos/20241124201250944#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iswkh7dlz1",
+      "Integrity": "/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\20241124201250944.jpg"
     },
     {
       "Identity": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
@@ -5579,6 +5621,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-4Gj2r5/9M6TwYfrF9hg0pOP8Y4LKd4BOEmaXj9TmRP0="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124185247343.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124185247343.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 23:52:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124185247343.p6bqqvq9vi.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124185247343.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 23:52:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p6bqqvq9vi"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241124185247343.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IdGV1Lv5f80ldJ3pLHLUWAmqIvfhVBXhXsINcUpgXCc="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124201250944.iswkh7dlz1.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124201250944.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 01:12:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iswkh7dlz1"
+        },
+        {
+          "Name": "label",
+          "Value": "ImagenesProductos/20241124201250944.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M="
+        }
+      ]
+    },
+    {
+      "Route": "ImagenesProductos/20241124201250944.jpg",
+      "AssetFile": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124201250944.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 01:12:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/t/s7lt15EuxkTnSRWrt0tOYjXDyXQoI4B8M43Zlt5M="
         }
       ]
     },

@@ -1,37 +1,56 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using WebSiteWasi.Models
+@using Microsoft.EntityFrameworkCore;
 
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
+@inject ApplicationDbContext _dbContext
 
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
-
+        // Si el usuario tiene el rol de ADMIN
         if (User.IsInRole("ADMIN"))
         {
-
             <li class="nav-item dropdown">
-
                 <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-
                     Admin
-
                 </a>
-
                 <ul class="dropdown-menu">
-
                     <li> <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">Perfil</a> </li>
                     <li> <hr class="dropdown-divider" /> </li>
                     <li> <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout">Salir</a> </li>
-
                 </ul>
-
             </li>
-
         }
+        // Si el usuario tiene el rol de CLIENT
         else if (User.IsInRole("CLIENT"))
         {
+            <!-- Carrito de compras -->
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Carrito" asp-action="Index">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge bg-danger">
+                        @* Mostrar el contador de productos en el carrito *@
+                        @{
+                            var user = await UserManager.GetUserAsync(User);
+                            int cartItemCount = 0;
+
+                            // Verificar si el usuario tiene un carrito y calcular el número de productos en él
+                            if (user != null)
+                            {
+                                var carrito = await _dbContext.Carritos
+                                .Where(c => c.IdUsuario == user.Id)
+                                .Include(c => c.CarritoProductos)
+                                .FirstOrDefaultAsync();
+                                cartItemCount = carrito?.CarritoProductos?.Count() ?? 0;
+                            }
+                        }
+                        @cartItemCount
+                    </span>
+                </a>
+            </li>
+
             <li class="nav-item dropdown">
 
                 <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,19 +69,14 @@
 
             </li>
         }
-
-
-
-
-
     }
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
         </li>
     }
 </ul>

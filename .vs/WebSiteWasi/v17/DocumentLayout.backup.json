@@ -3,56 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Migrations\\20241124230411_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteWasi\\Migrations\\20241124230411_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi\\websitewasi\\views\\producto\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,171 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VistaListaProductos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T23:16:24.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAEMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T23:13:00.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T23:09:39.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20241124230411_wasi.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Migrations\\20241124230411_wasi.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Migrations\\20241124230411_wasi.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Migrations\\20241124230411_wasi.cs",
-              "RelativeToolTip": "WebSiteWasi\\Migrations\\20241124230411_wasi.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwEMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T23:04:12.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\appsettings.json",
-              "RelativeDocumentMoniker": "WebSiteWasi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\appsettings.json",
-              "RelativeToolTip": "WebSiteWasi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-24T23:03:26.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Program.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Program.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Program.cs",
-              "RelativeToolTip": "WebSiteWasi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:32:52.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Models\\Carrito.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Carrito.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Models\\Carrito.cs",
-              "RelativeToolTip": "WebSiteWasi\\Models\\Carrito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:36:56.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T22:35:20.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "WebSiteWasi\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAADwv78AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:35:22.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Datos\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Datos\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Datos\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebSiteWasi\\Datos\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:32:58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "WebSiteWasi\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:45:16.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "WebSiteWasi\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "WebSiteWasi\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAAoBAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAIwBwBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:34:03.926Z",
+              "WhenOpened": "2024-11-25T02:55:00.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "WebSiteWasi\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAwGsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "VistaListaProductos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T02:27:39.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T02:41:27.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "WebSiteWasi\\Controllers\\CarritoController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwI4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:33:45.867Z",
+              "WhenOpened": "2024-11-25T02:40:59.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Detalles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi\\WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T02:55:29.547Z",
               "EditorCaption": ""
             }
           ]

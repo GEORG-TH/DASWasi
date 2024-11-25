@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using WebSiteWasi.Models;
 
 namespace WebSiteWasi.Controllers
@@ -277,6 +278,24 @@ namespace WebSiteWasi.Controllers
                 return RedirectToAction(nameof(VistaListaProductos));
             }
             
+        }
+
+
+        // Acción para mostrar los detalles del producto
+        public async Task<IActionResult> Detalles(int id)
+        {
+            // Buscar el producto por su Id
+            var producto = await _db.Productos
+                .FirstOrDefaultAsync(p => p.IdProducto == id);
+
+            // Verificar si el producto existe
+            if (producto == null)
+            {
+                return NotFound();  // Si no se encuentra el producto, retorna un error 404
+            }
+
+            // Devolver la vista con el producto
+            return View(producto);
         }
 
     }

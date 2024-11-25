@@ -192,6 +192,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Georg/Documents/DISEÑO Y ARQUITECTURA/WebSiteWasi/WebSiteWasi/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Georg/Documents/DISEÑO Y ARQUITECTURA/WebSiteWasi/WebSiteWasi/Views/Categoria/VistaListaCategorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXFZpc3RhTGlzdGFDYXRlZ29yaWFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -218,6 +222,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Georg/Documents/DISEÑO Y ARQUITECTURA/WebSiteWasi/WebSiteWasi/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Georg/Documents/DISEÑO Y ARQUITECTURA/WebSiteWasi/WebSiteWasi/Views/Producto/Detalles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWxsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Georg/Documents/DISEÑO Y ARQUITECTURA/WebSiteWasi/WebSiteWasi/Views/Producto/VistaListaProductos.cshtml]
