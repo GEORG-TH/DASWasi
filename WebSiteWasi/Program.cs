@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebSiteWasi.Models;
+using WebSiteWasi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 
 // Agregar controladores y vistas
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient<GeminiRecommendationService>();  // Agregar GeminiRecommendationService al contenedor de DI
 
 // Construcción de la aplicación
 var app = builder.Build();

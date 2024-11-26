@@ -1,117 +1,117 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
+﻿// Licenciado a la .NET Foundation bajo uno o más acuerdos.
+// La .NET Foundation te licencia este archivo bajo la licencia MIT.
 #nullable disable
 
 using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace  WebSiteWasi.Areas.Identity.Pages.Account.Manage
+namespace WebSiteWasi.Areas.Identity.Pages.Account.Manage
 {
     /// <summary>
-    ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-    ///     directly from your code. This API may change or be removed in future releases.
+    ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+    ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
     /// </summary>
     public static class ManageNavPages
     {
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string Index => "Index";
+        public static string Index => "Índice";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string Email => "Email";
+        public static string Email => "Correo electrónico";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string ChangePassword => "ChangePassword";
+        public static string ChangePassword => "CambiarContraseña";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string DownloadPersonalData => "DownloadPersonalData";
+        public static string DownloadPersonalData => "DescargarDatosPersonales";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string DeletePersonalData => "DeletePersonalData";
+        public static string DeletePersonalData => "EliminarDatosPersonales";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string ExternalLogins => "ExternalLogins";
+        public static string ExternalLogins => "IniciosDeSesiónExternos";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string PersonalData => "PersonalData";
+        public static string PersonalData => "DatosPersonales";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
-        public static string TwoFactorAuthentication => "TwoFactorAuthentication";
+        public static string TwoFactorAuthentication => "AutenticaciónDeDosFactores";
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string IndexNavClass(ViewContext viewContext) => PageNavClass(viewContext, Index);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string EmailNavClass(ViewContext viewContext) => PageNavClass(viewContext, Email);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string ChangePasswordNavClass(ViewContext viewContext) => PageNavClass(viewContext, ChangePassword);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string DownloadPersonalDataNavClass(ViewContext viewContext) => PageNavClass(viewContext, DownloadPersonalData);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string DeletePersonalDataNavClass(ViewContext viewContext) => PageNavClass(viewContext, DeletePersonalData);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string ExternalLoginsNavClass(ViewContext viewContext) => PageNavClass(viewContext, ExternalLogins);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string PersonalDataNavClass(ViewContext viewContext) => PageNavClass(viewContext, PersonalData);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string TwoFactorAuthenticationNavClass(ViewContext viewContext) => PageNavClass(viewContext, TwoFactorAuthentication);
 
         /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
+        ///     Esta API admite la infraestructura de la interfaz de usuario predeterminada de ASP.NET Core Identity y no está destinada a ser utilizada
+        ///     directamente desde tu código. Esta API puede cambiar o eliminarse en futuras versiones.
         /// </summary>
         public static string PageNavClass(ViewContext viewContext, string page)
         {

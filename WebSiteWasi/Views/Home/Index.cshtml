@@ -1,11 +1,196 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Wasi";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Usaremos un layout para la estructura base
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-3">
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/Bannerhola1.jpg" class="d-block w-100 carousel-img" alt="Wasi Banner">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/cajera1.png" class="d-block w-100 carousel-img" alt="Wasi Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/pasillotiendaWasi.png" class="d-block w-100 carousel-img" alt="Wasi Banner 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-4">
+        <div class="welcome-banner text-center p-4">
+            <h2 class="welcome-title">¡Bienvenido Wasi Lover!</h2>
+            <p class="welcome-text">Con nuestros precios te sentirás como en tu Wasi, caserito, yo siempre tengo los mejores precios, y además, estoy siempre cerca a tu Wasi.</p>
+            <p class="welcome-text">¡No te pierdas de los mejores precios del barrio aquí!</p>
+        </div>
+    </div>
+
+    <!-- Formulario para recomendaciones -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">¡Obtén Recomendaciones Personalizadas Con Inteligencia Artificial!</h2>
+        <div class="card shadow-lg">
+            <div class="card-body">
+                <form asp-controller="IA" asp-action="RecommendProducto" method="get">
+                    <div class="mb-3">
+                        <label for="productname" class="form-label">Ingresa la ocasión:</label>
+                        <input type="text" class="form-control" id="productname" name="productname" placeholder="Ej. Fiesta, Cena, Desayuno, etc." />
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Obtener Recomendaciones</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="titulo-principal text-center mb-4">Precios para sentirte como en tu Wasi</h2>
+        <p class="subtitulo text-center">Algunos de nuestros productos Wasi</p>
+        <!-- Primera fila de productos -->
+        <div class="row mb-4">
+            <!-- Producto 1 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/JavaHuevos.png" class="card-img-top" alt="Huevos">
+                    <div class="card-body">
+                        <h5 class="card-title">La Calera</h5>
+                        <p class="card-text">Huevos pardos</p>
+                        <p class="price">S/ 7.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/InkaChips.png" class="card-img-top" alt="Inkachips">
+                    <div class="card-body">
+                        <h5 class="card-title">Inkachips</h5>
+                        <p class="card-text">Papas artesanales con sal marina</p>
+                        <p class="price">S/ 5.90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/PHSuave.png" class="card-img-top" alt="Papel Higiénico">
+                    <div class="card-body">
+                        <h5 class="card-title">Suave</h5>
+                        <p class="card-text">Papel Higiénico</p>
+                        <p class="price">S/ 24.50</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/Doritos.png" class="card-img-top" alt="Doritos">
+                    <div class="card-body">
+                        <h5 class="card-title">Doritos</h5>
+                        <p class="card-text">Doritos sabor a Nacho de Queso</p>
+                        <p class="price">S/ 2.90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda fila de productos -->
+        <div class="row">
+            <!-- Producto 5 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/Azucar1kg.png" class="card-img-top" alt="Azucar">
+                    <div class="card-body">
+                        <h5 class="card-title">Paramonga</h5>
+                        <p class="card-text">Azúcar rubia de 1kg</p>
+                        <p class="price">S/ 4.90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/Arroz5kg.png" class="card-img-top" alt="Arroz">
+                    <div class="card-body">
+                        <h5 class="card-title">Costeño</h5>
+                        <p class="card-text">Arroz de 5kg</p>
+                        <p class="price">S/ 26.90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 7 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/Atunprimor.png" class="card-img-top" alt="Atun">
+                    <div class="card-body">
+                        <h5 class="card-title">Primor</h5>
+                        <p class="card-text">Atún en trozos</p>
+                        <p class="price">S/ 5.50</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 8 -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <img src="/images/Detergentelíquido.png" class="card-img-top" alt="Detergente">
+                    <div class="card-body">
+                        <h5 class="card-title">Ace</h5>
+                        <p class="card-text">Detergente en liquido</p>
+                        <p class="price">S/ 36.90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="info-section d-flex align-items-center p-4">
+            <div class="info-image">
+                <img src="/images/Cajera2.png" alt="Descripción de la imagen" class="img-fluid">
+            </div>
+            <div class="info-text ms-4">
+                <h3>Encuentra todo lo que necesitas en Wasi</h3>
+                <p>Wasi es tu tienda de confianza, con precios que te harán sentir como en casa. Aquí encontrarás productos de calidad al alcance de todos.</p>
+                <a href="/Home/Ubicame">
+                    <button class="btn btn-primary">Ubícame</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 text-center">
+        <h4 class="customer-service-title">SERVICIO AL CLIENTE</h4>
+        <p class="customer-service-text">Horario de atención:</p>
+        <p class="customer-service-hours">De lunes a domingo de 7 AM a 10 PM</p>
+    </div>
+    <br />
+
+    <div class="container mt-3 text-center">
+        <h4 class="payment-title">MÉTODOS DE PAGO</h4>
+        <div class="payment-methods d-flex justify-content-center align-items-center gap-4 mt-3">
+            <img src="/images/efectivo.png" alt="Efectivo" class="payment-icon">
+            <img src="/images/tarjeta-debito.png" alt="Tarjeta de Débito" class="payment-icon">
+            <img src="/images/visa.png" alt="Visa" class="payment-icon">
+            <img src="/images/mastercard.png" alt="Mastercard" class="payment-icon">
+            <img src="/images/tarjeta-credito.png" alt="Tarjeta de Crédito" class="payment-icon">
+            <img src="/images/visa.png" alt="Visa" class="payment-icon">
+            <img src="/images/oh.png" alt="Oh!" class="payment-icon">
+            <img src="/images/oh-pay.png" alt="Oh! Pay" class="payment-icon">
+        </div>
+    </div>
+
 </div>
-
-<a href="/User">User</a> 
-

@@ -1,0 +1,54 @@
+﻿/* Títulos */
+.privacy-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.privacy-subtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Texto de Introducción */
+.privacy-intro {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Sección de privacidad */
+.privacy-section {
+    margin-bottom: 2.5rem;
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+    .privacy-section p {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.8;
+    }
+
+    .privacy-section ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+        .privacy-section ul li {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+/* Enlaces */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

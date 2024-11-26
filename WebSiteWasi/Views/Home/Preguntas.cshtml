@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Preguntas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pregunta-page">
+    <!-- Banner -->
+    <div class="pregunta-banner">
+        <img src="/images/Wasiwasi.png" alt="Banner Preguntas Frecuentes" class="img-fluid">
+    </div>
+
+    <div class="container mt-5 pregunta-container">
+        <h1 class="pregunta-title">PREGUNTAS FRECUENTES</h1>
+
+        <!-- Pregunta 1 -->
+        <div class="pregunta-item">
+            <button class="accordion">¿Qué productos puedo comprar en Wasi?</button>
+            <div class="panel">
+                <p>Te vas a la sección de productos, escoges los productos que piensas comprar y los añades en el carrito.</p>
+            </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="pregunta-item">
+            <button class="accordion">¿Qué medios de pago puedo usar cuando compro en la tienda Wasi?</button>
+            <div class="panel">
+                <p>En nuestras tiendas, puedes pagar con tarjeta de crédito o débito de todos los bancos o efectivo.</p>
+            </div>
+        </div>
+
+        <!-- Pregunta 3  -->
+        <div class="pregunta-item">
+            <button class="accordion">¿Cómo puedo saber si hay alguna tienda Wasi cerca de mí?</button>
+            <div class="panel">
+                <p>Para encontrar una tienda Wasi cerca de ti, puedes visitar nuestra página web y apretar la sección "Ubicame", o buscar en Google Maps "tienda Wasi" y verás las ubicaciones cercanas.</p>
+            </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="pregunta-item">
+            <button class="accordion">¿Cómo hago para realizar un cambio de producto?</button>
+            <div class="panel">
+                <p>Para realizar un cambio de producto, simplemente trae el artículo con su boleta de compra a nuestras tienda y te ayudaremos a gestionar el cambio por otro producto del mismo valor.</p>
+            </div>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="pregunta-item">
+            <button class="accordion">¿Dónde puedo realizar un reclamo de algún acontecimiento realizado en tienda o con algún producto?</button>
+            <div class="panel">
+                <p>Si tienes algún inconveniente con nuestros productos o servicio, puedes realizar tu reclamo en la tienda o a través de nuestro centro de atención al cliente disponible en la web.</p>
+            </div>
+        </div>
+
+        <!-- Nueva Pregunta 6 -->
+        <div class="pregunta-item">
+            <button class="accordion">¿Cómo hago para encontrar los mejores descuentos en Wasi?</button>
+            <div class="panel">
+                <p>Para aprovechar los mejores descuentos de Wasi, visita nuestra página web y suscríbete a nuestro boletín. También puedes seguirnos en nuestras redes sociales para estar al tanto de nuestras ofertas y promociones exclusivas.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript para el acordeón -->
+<script>
+    // Seleccionar todos los botones de acordeón
+    var acc = document.getElementsByClassName("accordion");
+
+    // Agregar un evento de clic a cada acordeón
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            // Cambiar la clase "active" en el botón del acordeón
+            this.classList.toggle("active");
+
+            // Obtener el panel correspondiente
+            var panel = this.nextElementSibling;
+
+            // Alternar la visibilidad del panel
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>

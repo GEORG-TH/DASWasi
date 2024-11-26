@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Recomendaciones de productos";
+}
+
+<h3>Recomendaciones para @ViewBag.ProductName</h3>
+
+@if (ViewBag.Recommendations != null)
+{
+    <p>@ViewBag.Recommendations</p>
+}
+else
+{
+    <p>No se encontraron recomendaciones para este producto.</p>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}

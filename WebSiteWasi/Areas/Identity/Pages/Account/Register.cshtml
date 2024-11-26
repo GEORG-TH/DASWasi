@@ -1,9 +1,8 @@
 ﻿@page
 @model RegisterModel
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "Registro";
 }
-
 
 <div class="row">
     <div class="col-lg-6 mx-auto rounded border p-3">
@@ -34,7 +33,7 @@
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Telefono</label>
+                <label class="col-sm-4 col-form-label">Teléfono</label>
                 <div class="col-sm-8">
 
                     <input class="form-control" asp-for="Input.PhoneNumber" />
@@ -44,7 +43,7 @@
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Direccion</label>
+                <label class="col-sm-4 col-form-label">Dirección</label>
                 <div class="col-sm-8">
 
                     <input class="form-control" asp-for="Input.Direccion" />
@@ -53,19 +52,18 @@
                 </div>
             </div>
 
-
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Email</label>
+                <label class="col-sm-4 col-form-label">Correo electrónico</label>
                 <div class="col-sm-8">
 
-                    <input  class="form-control" asp-for="Input.Email"/>
+                    <input class="form-control" asp-for="Input.Email" />
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
 
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Password</label>
+                <label class="col-sm-4 col-form-label">Contraseña</label>
                 <div class="col-sm-8">
 
                     <input class="form-control" asp-for="Input.Password" />
@@ -75,7 +73,7 @@
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Confirmar Password</label>
+                <label class="col-sm-4 col-form-label">Confirmar contraseña</label>
                 <div class="col-sm-8">
 
                     <input class="form-control" asp-for="Input.ConfirmPassword" />
@@ -85,7 +83,7 @@
             </div>
 
             <div class="row mb-3">
-                
+
                 <div class="offset-sm-4 col-sm-4 d-grid">
                     <button type="submit" class="btn btn-primary">Registrar</button>
                 </div>
@@ -97,5 +95,4 @@
             </div>
         </form>
     </div>
-
 </div>

@@ -1,22 +1,265 @@
+.welcome-banner {
+    background-color: #0056b3; /* Fondo azul */
+    color: white; /* Texto en blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 2rem;
+}
+
+.welcome-title {
+    font-size: 2.5rem; /* Tamaño de fuente grande para el título */
+    font-weight: bold;
+    color: #FFD700; /* Color dorado para el título */
+    margin-bottom: 1rem;
+}
+
+.welcome-text {
+    font-size: 1.2rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.8; /* Espaciado entre líneas */
+    color: white; /* Asegura que el texto sea blanco */
+    margin-bottom: 0.5rem; /* Espacio entre los párrafos */
+}
+
+
+.card-img-top {
+    height: 100px; /* Altura fija para todas las imágenes */
+    width: 100px; /* Ancho completo del contenedor */
+    object-fit: cover; /* Recorte proporcional para mantener el aspecto */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    margin: 0 auto; /* Centramos la imagen dentro de la tarjeta */
+}
+
+.row {
+    margin-bottom: 2rem; /* Separación entre filas */
+}
+
+/* Estilos existentes */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+@media (min-width: 600px) {
+    html {
+        font-size: 16px;
+        margin: 0; /* Elimina cualquier margen */
+        padding: 0; /* Elimina cualquier relleno */
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier relleno */
 }
+
+h2 {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.card {
+    border: none;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+/* Eliminar espacio superior del carrusel */
+.carousel {
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* Ajustar el tamaño del carrusel y la imagen */
+.carousel-inner {
+    width: 100%; /* Asegura que el carrusel ocupe todo el ancho */
+    padding: 0; /* Elimina cualquier relleno adicional */
+}
+
+.carousel-img {
+    height: 500px; /* Ajuste automático de altura */
+    width: auto; /* Ancho completo */
+    object-fit: cover; /* Recorte proporcional de la imagen */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier relleno */
+}
+
+
+/* Gradiente para el encabezado */
+.bg-gradient-primary {
+    background: linear-gradient(90deg, #0056b3, #007bff);
+}
+
+/* Estilos para el pie de página */
+footer {
+    border-top: 1px solid #555;
+    font-size: 0.9rem;
+}
+
+    /* Links en el pie de página */
+    footer a {
+        color: #ff6600;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Encabezado responsivo */
+.navbar-brand img {
+    border-radius: 30%; /* Logo redondeado */
+}
+
+
+/* Margen en el contenido principal */
+.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/* Estilo para el título */
+.titulo-principal {
+    font-size: 2rem; /* Tamaño más grande para el título */
+    font-weight: bold; /* Fuente en negrita */
+    color: #0056b3; /* Color azul para el título */
+    margin-bottom: 1rem;
+}
+
+/* Estilo para el subtítulo */
+.subtitulo {
+    font-size: 1.2rem; /* Tamaño más pequeño que el título */
+    color: #6c757d; /* Color gris más suave para el subtítulo */
+    margin-top: -0.5rem; /* Reduce el espacio entre título y subtítulo */
+    margin-bottom: 2rem; /* Espacio debajo del subtítulo */
+}
+
+.info-section {
+    background-color: #0056b3; /* Fondo azul */
+    border-radius: 8px; /* Bordes redondeados */
+    color: white; /* Texto en blanco */
+    display: flex;
+    padding: 2rem; /* Espaciado interno más grande */
+    gap: 2rem; /* Espacio entre imagen y texto */
+}
+
+.info-image {
+    flex: 1; /* La imagen ocupa 1 parte del espacio */
+    max-width: 400px; /* Ancho máximo de la imagen */
+}
+
+    .info-image img {
+        width: 100%; /* Ajusta la imagen al ancho máximo */
+        border-radius: 8px; /* Bordes redondeados de la imagen */
+    }
+
+.info-text {
+    flex: 2; /* La sección de texto ocupa 2 partes del espacio */
+    max-width: 700px; /* Ancho máximo para el texto */
+}
+
+    .info-text h3 {
+        font-size: 2.5rem; /* Tamaño de fuente más grande para el título */
+        font-weight: bold;
+        color: #FFD700; /* Color dorado para el título */
+        margin-bottom: 1rem;
+    }
+
+    .info-text p {
+        font-size: 1.25rem; /* Aumenta el tamaño de fuente del párrafo */
+        line-height: 1.8; /* Espaciado entre líneas */
+    }
+
+    .info-text .btn {
+        background-color: #FFD700; /* Color dorado para el botón */
+        color: #0056b3; /* Texto en azul */
+        font-weight: bold;
+        border: none;
+        padding: 0.75rem 2rem; /* Botón más grande */
+        border-radius: 20px;
+        margin-top: 1rem;
+    }
+
+        .info-text .btn:hover {
+            background-color: #FFA500; /* Color de hover */
+            color: white;
+        }
+
+.payment-title {
+    font-size: 1.8rem; /* Tamaño grande para el título */
+    font-weight: bold;
+    color: #0056b3; /* Color azul para el título */
+    margin-bottom: 1rem;
+}
+
+.payment-methods {
+    gap: 1.5rem; /* Espacio entre cada ícono de método de pago */
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    padding-bottom: 0; /* Elimina cualquier relleno inferior */
+}
+
+.payment-icon {
+    height: 40px; /* Tamaño de cada ícono */
+    width: auto; /* Ancho automático para mantener proporción */
+}
+
+.customer-service-title {
+    font-size: 1.8rem; /* Tamaño grande para el título */
+    font-weight: bold;
+    color: #0056b3; /* Color azul */
+    margin-bottom: 0.5rem;
+}
+
+.customer-service-text {
+    font-size: 1.1rem; /* Tamaño de fuente para el texto */
+    font-weight: bold;
+    color: #0056b3; /* Color azul */
+    margin-bottom: 0.3rem;
+}
+
+.customer-service-hours {
+    font-size: 1.1rem; /* Tamaño de fuente para el horario */
+    color: #0056b3; /* Color azul */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos para el menú desplegable */
+.nav-item .dropdown-menu {
+    background-color: #0056b3; /* Fondo azul */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.nav-item .dropdown-item {
+    color: white; /* Texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+    .nav-item .dropdown-item:hover {
+        background-color: #FFD700; /* Fondo dorado al pasar el cursor */
+        color: #0056b3; /* Texto azul */
+    }

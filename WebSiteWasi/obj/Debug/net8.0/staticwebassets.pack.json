@@ -1,352 +1,580 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebSiteWasi.y5yao9frz8.bundle.scp.css"
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebSiteWasi.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Audífonos_Bluetooth_Sony_WH_1000XM4.jfif",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Arroz5kg.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Arroz5kg.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Atunprimor.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Atunprimor.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Audífonos_Bluetooth_Sony_WH_1000XM4.jfif",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Audífonos_Bluetooth_Sony_WH_1000XM4.jfif"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\BufandaCachemir.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Azucar1kg.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Azucar1kg.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Bannerhola.jpg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Bannerhola.jpg"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Bannerhola1.jpg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Bannerhola1.jpg"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\BufandaCachemir.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\BufandaCachemir.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Camiseta_Nike_negra.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Cajera2.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Cajera2.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Cajera3.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Cajera3.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Camiseta_Nike_negra.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Camiseta_Nike_negra.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\CocaCola.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\CocaCola.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\CocaCola.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Corona.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Corona.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Corona.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Ensalada.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Detergentelíquido.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Detergentelíquido.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Doritos.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Doritos.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Ensalada.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Ensalada.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\FIFA_23.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\FIFA_23.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\FIFA_23.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Galletas_caja_lata.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Galletas_caja_lata.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Galletas_caja_lata.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\God_of_war_3.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\God_of_war_3.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\God_of_war_3.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Gran_Turismo_7.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Gran_Turismo_7.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Gran_Turismo_7.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\IncaKola.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\IncaKola.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\IncaKola.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Laptop_Dell_Inspiron_15.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\InkaChips.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\InkaChips.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\JavaHuevos.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\JavaHuevos.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Laptop_Dell_Inspiron_15.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Laptop_Dell_Inspiron_15.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pantalon_Jeans.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Mapa-de-lima.jpg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Mapa-de-lima.jpg"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\PHSuave.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\PHSuave.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pantalon_Jeans.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Pantalon_Jeans.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pavo.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pavo.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Pavo.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pepsi.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pepsi.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Pepsi.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\PlayStation_5.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\PlayStation_5.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\PlayStation_5.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pollo_brasa.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pollo_brasa.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Pollo_brasa.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\SAN_LUIS.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\SAN_LUIS.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\SAN_LUIS.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Smartphone_Galaxy_S21.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Smartphone_Galaxy_S21.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Smartphone_Galaxy_S21.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Sombrero_Fedora.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Sombrero_Fedora.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Sombrero_Fedora.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Tablet_iPad_10th_Gen.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Tablet_iPad_10th_Gen.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Tablet_iPad_10th_Gen.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Televisor_Samsung_4K_UHD_50.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Televisor_Samsung_4K_UHD_50.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Televisor_Samsung_4K_UHD_50.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Xbox_Series_X.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\WASILOGO.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\WASILOGO.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Wasiwasi.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Wasiwasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Xbox_Series_X.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Xbox_Series_X.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Zapatillas.webp",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Zapatillas.webp",
       "PackagePath": "staticwebassets\\ImagenesProductos\\Zapatillas.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\todino.png",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\cajera1.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\cajera1.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\compraswasi.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\compraswasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\efectivo.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\efectivo.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\imagencentral.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\imagencentral.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\mastercard.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\mastercard.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\oh-pay.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\oh-pay.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\oh.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\oh.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\pasillotiendaWasi.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\pasillotiendaWasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\sedewasi.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\sedewasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\tarjeta-credito.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\tarjeta-credito.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\tarjeta-debito.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\tarjeta-debito.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\todino.png",
       "PackagePath": "staticwebassets\\ImagenesProductos\\todino.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\css\\site.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\ImagenesProductos\\visa.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\visa.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\css\\conoceme.css",
+      "PackagePath": "staticwebassets\\css\\conoceme.css"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\css\\preguntas.css",
+      "PackagePath": "staticwebassets\\css\\preguntas.css"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\css\\privacidad.css",
+      "PackagePath": "staticwebassets\\css\\privacidad.css"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\favicon.ico",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\css\\ubicame.css",
+      "PackagePath": "staticwebassets\\css\\ubicame.css"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\js\\site.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Arroz5kg.png",
+      "PackagePath": "staticwebassets\\images\\Arroz5kg.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Atunprimor.png",
+      "PackagePath": "staticwebassets\\images\\Atunprimor.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Azucar1kg.png",
+      "PackagePath": "staticwebassets\\images\\Azucar1kg.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Bannerhola.jpg",
+      "PackagePath": "staticwebassets\\images\\Bannerhola.jpg"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Bannerhola1.jpg",
+      "PackagePath": "staticwebassets\\images\\Bannerhola1.jpg"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Cajera2.png",
+      "PackagePath": "staticwebassets\\images\\Cajera2.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Cajera3.png",
+      "PackagePath": "staticwebassets\\images\\Cajera3.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Detergentelíquido.png",
+      "PackagePath": "staticwebassets\\images\\Detergentelíquido.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Doritos.png",
+      "PackagePath": "staticwebassets\\images\\Doritos.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\InkaChips.png",
+      "PackagePath": "staticwebassets\\images\\InkaChips.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\JavaHuevos.png",
+      "PackagePath": "staticwebassets\\images\\JavaHuevos.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Mapa-de-lima.jpg",
+      "PackagePath": "staticwebassets\\images\\Mapa-de-lima.jpg"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\PHSuave.png",
+      "PackagePath": "staticwebassets\\images\\PHSuave.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\WASILOGO.png",
+      "PackagePath": "staticwebassets\\images\\WASILOGO.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\Wasiwasi.png",
+      "PackagePath": "staticwebassets\\images\\Wasiwasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\cajera1.png",
+      "PackagePath": "staticwebassets\\images\\cajera1.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\compraswasi.png",
+      "PackagePath": "staticwebassets\\images\\compraswasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\efectivo.png",
+      "PackagePath": "staticwebassets\\images\\efectivo.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\imagencentral.png",
+      "PackagePath": "staticwebassets\\images\\imagencentral.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\mastercard.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\oh-pay.png",
+      "PackagePath": "staticwebassets\\images\\oh-pay.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\oh.png",
+      "PackagePath": "staticwebassets\\images\\oh.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\pasillotiendaWasi.png",
+      "PackagePath": "staticwebassets\\images\\pasillotiendaWasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\sedewasi.png",
+      "PackagePath": "staticwebassets\\images\\sedewasi.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\tarjeta-credito.png",
+      "PackagePath": "staticwebassets\\images\\tarjeta-credito.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\tarjeta-debito.png",
+      "PackagePath": "staticwebassets\\images\\tarjeta-debito.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\images\\visa.png",
+      "PackagePath": "staticwebassets\\images\\visa.png"
+    },
+    {
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\DescargasD\\DASWasi\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSiteWasi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSiteWasi.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -23,6 +23,22 @@ namespace WebSiteWasi.Controllers
             return View();
         }
 
+        public IActionResult Conoceme()
+        {
+            return View();
+        }
+
+        public IActionResult Ubicame()
+        {
+            return View();
+        }
+
+        public IActionResult Preguntas()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

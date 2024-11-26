@@ -1,0 +1,132 @@
+﻿/* Estilos generales */
+.ubicame-container {
+    padding: 2rem;
+    background-color: #fef9e7; /* Fondo suave */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centra los elementos */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.ubicame-title {
+    font-size: 3rem; /* Título más grande */
+    font-weight: bold;
+    color: #FFD700; /* Dorado */
+    margin-bottom: 1rem;
+}
+
+.ubicame-subtitle {
+    font-size: 1.8rem; /* Subtítulo más grande */
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+/* Cuadro azul con el primer contenido */
+.azul {
+    background-color: #0056b3; /* Fondo azul */
+    color: white;
+    padding: 3rem; /* Mayor padding para que no quede vacío */
+    text-align: center; /* Centra el texto */
+    display: flex;
+    justify-content: space-between; /* Divide la imagen y el texto */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Cuadro amarillo con el segundo contenido */
+.amarillo {
+    background-color: #fef9e7; /* Fondo amarillo */
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro del cuadro */
+    align-items: center; /* Asegura que el contenido quede alineado verticalmente */
+    flex-direction: column; /* Ordena los elementos de arriba hacia abajo */
+    gap: 15px; /* Añade un pequeño espacio entre los elementos */
+}
+
+/* Dirección y Botón */
+.address-container {
+    font-size: 1.5rem; /* Aumento el tamaño de la dirección */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Imagen a la derecha y ajustada */
+.ubicame-image img {
+    width: 100%;
+    max-width: 500px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Botón de Google Maps */
+.btn-llamativo {
+    background-color: #FFD700; /* Dorado */
+    color: #0056b3;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.5rem; /* Botón grande */
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+    .btn-llamativo:hover {
+        background-color: #003d7a;
+        color: white;
+    }
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 768px) {
+    .ubicame-container {
+        padding: 1.5rem;
+    }
+
+    .ubicame-title {
+        font-size: 2.5rem;
+    }
+
+    .ubicame-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .btn-llamativo {
+        font-size: 1.2rem;
+    }
+
+    .ubicame-image img {
+        width: 100%;
+    }
+
+    .address-container {
+        font-size: 1.2rem;
+    }
+
+    .azul {
+        flex-direction: column;
+    }
+}
+.payment-title {
+    font-size: 1.8rem; /* Tamaño grande para el título */
+    font-weight: bold;
+    color: #0056b3; /* Color azul para el título */
+    margin-bottom: 1rem;
+}
+
+.payment-methods {
+    gap: 1.5rem; /* Espacio entre cada ícono de método de pago */
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    padding-bottom: 0; /* Elimina cualquier relleno inferior */
+}
+
+.payment-icon {
+    height: 40px; /* Tamaño de cada ícono */
+    width: auto; /* Ancho automático para mantener proporción */
+}
+html {
+    scroll-behavior: smooth;
+}

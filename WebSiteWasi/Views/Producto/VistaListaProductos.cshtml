@@ -3,69 +3,71 @@
     ViewData["Title"] = "Lista de Productos";
 }
 
-<div class="container pt-3">
-    <div class="row pt-4">
-        <div class="col-6">
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col-md-6">
             <h2 class="text-primary">Lista de Productos</h2>
         </div>
         @if (User.IsInRole("ADMIN"))
         {
-            <div class="col-6">
-                <a asp-controller="Producto" asp-action="VistaRegistrarProducto" class="btn btn-primary">Nuevo Producto</a>
+            <div class="col-md-6 text-md-end">
+                <a asp-controller="Producto" asp-action="VistaRegistrarProducto" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Nuevo Producto
+                </a>
             </div>
         }
     </div>
-    <br />
 
     @if (Model.Count() > 0)
     {
-        <table class="table table-bordered table-striped" style="width:100%">
-            <thead>
-                <tr>
-                    <th class="text-black text-center">Nombre</th>
-                    <th class="text-black text-center">Precio</th>
-                    <th class="text-black text-center">Imagen</th>
-                    <th class="text-black text-center">Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td class="text-center">@item.NombreProducto</td>
-                        <td class="text-center">@item.PrecioProducto</td>
-                        <td width="20%" class="text-center">
-                            <img src="/ImagenesProductos/@item.ImagenURLProducto" width="100" />
-                        </td>
-                        <td class="text-center">
-                            <div class="m-75 btn-group" role="group">
-
-                                @if (User.IsInRole("CLIENT")){
-                                   <!-- Botón para abrir la ventana emergente de cantidad -->
-                                   <button class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#cantidadModal" data-producto-id="@item.IdProducto" data-producto-nombre="@item.NombreProducto" data-producto-precio="@item.PrecioProducto">Agregar al Carrito</button>
-
-                                    
-                                }
-                                else if (User.IsInRole("ADMIN"))
-                                {
-                                                <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
-                                                <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
-                                }
-                                        <!-- Ver Producto -->
-                                           <a asp-controller="Producto" asp-action="Detalles" asp-route-id="@item.IdProducto" class="btn btn-info mx-2">Ver Producto</a>
-
-
-                            <div />
-                            
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <!-- Contenedor de imagen flexible -->
+                        <div class="card-img-container" style="height: 250px; overflow: hidden;">
+                            <img src="/ImagenesProductos/@item.ImagenURLProducto" class="card-img-top" alt="@item.NombreProducto" style="width: 100%; height: 100%; object-fit: contain; background-color: #f8f9fa;">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">@item.NombreProducto</h5>
+                            <p class="card-text text-muted">Precio: <strong>S/@item.PrecioProducto</strong></p>
+                        </div>
+                        <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                            <a asp-controller="Producto" asp-action="Detalles" asp-route-id="@item.IdProducto" class="btn btn-info btn-sm">
+                                Ver Producto
+                            </a>
+                            @if (User.IsInRole("CLIENT"))
+                            {
+                                <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#cantidadModal"
+                                        data-producto-id="@item.IdProducto"
+                                        data-producto-nombre="@item.NombreProducto"
+                                        data-producto-precio="@item.PrecioProducto">
+                                    <i class="bi bi-cart-plus"></i> Agregar al Carrito
+                                </button>
+                            }
+                            else if (User.IsInRole("ADMIN"))
+                            {
+                                <div class="btn-group">
+                                    <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary btn-sm">
+                                        <i class="bi bi-pencil"></i> Modificar
+                                    </a>
+                                    <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger btn-sm">
+                                        <i class="bi bi-trash"></i> Eliminar
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
     }
     else
     {
-        <p>No hay productos disponibles.</p>
+        <div class="text-center py-5">
+            <h4 class="text-muted">No hay productos disponibles.</h4>
+        </div>
     }
 </div>
 
@@ -95,20 +97,17 @@
     <script>
         var productoId, productoNombre, productoPrecio;
 
-        // Llenar el modal con la información del producto
         $('#cantidadModal').on('show.bs.modal', function (event) {
             var button = $(event.relatedTarget);
             productoId = button.data('producto-id');
             productoNombre = button.data('producto-nombre');
             productoPrecio = button.data('producto-precio');
 
-            // Asignar valores al modal
             $('#productoId').val(productoId);
             $('#productoNombre').val(productoNombre);
             $('#productoPrecio').val(productoPrecio);
         });
 
-        // Confirmar y agregar al carrito
         $('#confirmarBtn').on('click', function () {
             var cantidad = $('#cantidadInput').val();
             if (cantidad > 0) {
@@ -121,7 +120,7 @@
                     },
                     success: function (response) {
                         $('#cantidadModal').modal('hide');
-                        location.reload(); // Actualizar la página para mostrar el nuevo contador
+                        location.reload();
                     }
                 });
             } else {
