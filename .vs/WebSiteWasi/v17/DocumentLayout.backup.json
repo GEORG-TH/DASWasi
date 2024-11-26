@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Georg\\Desktop\\das\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\desktop\\das\\websitewasi\\views\\producto\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\desktop\\das\\websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\desktop\\das\\websitewasi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126034516_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteWasi\\Migrations\\20241126034516_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126040147_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteWasi\\Migrations\\20241126040147_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\desktop\\das\\websitewasi\\views\\compra\\confirmarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\compra\\confirmarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\desktop\\das\\websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VistaListaProductos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T03:55:42.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Detalles.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T03:55:30.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20241126034516_wasi.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126034516_wasi.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Migrations\\20241126034516_wasi.cs",
-              "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126034516_wasi.cs",
-              "RelativeToolTip": "WebSiteWasi\\Migrations\\20241126034516_wasi.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T03:45:16.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Datos\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebSiteWasi\\Datos\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Datos\\ApplicationDbContext.cs",
               "RelativeToolTip": "WebSiteWasi\\Datos\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAYwMABAACBAAAAAAAAAA==",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAYwEwBAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T03:38:05.728Z",
+              "WhenOpened": "2024-11-26T04:12:51.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConfirmarCompra.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T03:37:01.723Z",
+              "DocumentIndex": 1,
+              "Title": "20241126040147_wasi.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126040147_wasi.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Migrations\\20241126040147_wasi.cs",
+              "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126040147_wasi.cs",
+              "RelativeToolTip": "WebSiteWasi\\Migrations\\20241126040147_wasi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:01:47.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebSiteWasi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\appsettings.json",
+              "RelativeToolTip": "WebSiteWasi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T03:59:22.594Z",
               "EditorCaption": ""
             }
           ]

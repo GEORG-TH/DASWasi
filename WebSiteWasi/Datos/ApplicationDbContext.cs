@@ -126,8 +126,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         var c1 = new Categoria { IdCategoria = 1, NombreCategoria = "Electrónica" };
         var c2 = new Categoria { IdCategoria = 2, NombreCategoria = "Ropa y Moda" };
         var c3 = new Categoria { IdCategoria = 3, NombreCategoria = "Videojuegos" };
-        var c4 = new Categoria { IdCategoria = 4, NombreCategoria = "Comidas" };
-        var c5 = new Categoria { IdCategoria = 5, NombreCategoria = "Bebidas" };
+        var c4 = new Categoria { IdCategoria = 4, NombreCategoria = "Bebidas" };
+        var c5 = new Categoria { IdCategoria = 5, NombreCategoria = "Comidas" };
 
 
 
@@ -330,7 +330,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             DescripcionProducto = "Coca Cola Personal Fría",
             PrecioProducto = 3.5m,
             StockProducto = 500,
-            ImagenURLProducto = "CocaCola.webp",
+            ImagenURLProducto = "CocaCola.png",
             FechaCreacionProducto = DateTime.Now,
             IdCategoria = IdCategoria
         };
@@ -378,7 +378,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             DescripcionProducto = "Corona Extra 500ml",
             PrecioProducto = 16.99m,
             StockProducto = 100,
-            ImagenURLProducto = "Corona.webp",
+            ImagenURLProducto = "Corona.png",
             FechaCreacionProducto = DateTime.Now,
             IdCategoria = IdCategoria
         };

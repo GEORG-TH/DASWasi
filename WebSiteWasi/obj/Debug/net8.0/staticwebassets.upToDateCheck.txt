@@ -4,9 +4,7 @@ wwwroot\ImagenesProductos\Audífonos_Bluetooth_Sony_WH_1000XM4.jfif
 wwwroot\ImagenesProductos\BufandaCachemir.webp
 wwwroot\ImagenesProductos\Camiseta_Nike_negra.png
 wwwroot\ImagenesProductos\CocaCola.png
-wwwroot\ImagenesProductos\CocaCola.webp
 wwwroot\ImagenesProductos\Corona.png
-wwwroot\ImagenesProductos\Corona.webp
 wwwroot\ImagenesProductos\Ensalada.png
 wwwroot\ImagenesProductos\FIFA_23.webp
 wwwroot\ImagenesProductos\Galletas_caja_lata.webp

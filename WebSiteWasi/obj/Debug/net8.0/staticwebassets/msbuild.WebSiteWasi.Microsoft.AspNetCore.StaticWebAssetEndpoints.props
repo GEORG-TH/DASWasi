@@ -66,29 +66,11 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"75h91i73m1"},{"Name":"integrity","Value":"sha256-CxjeYlz/R5sMu/0qn7lL27PA9R84ZDyY4UrLPeVKlPg="},{"Name":"label","Value":"_content/WebSiteWasi/ImagenesProductos/CocaCola.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"894433"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CxjeYlz/R5sMu/0qn7lL27PA9R84ZDyY4UrLPeVKlPg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:50:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/CocaCola.e1zid62tjp.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\CocaCola.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e1zid62tjp"},{"Name":"integrity","Value":"sha256-Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg="},{"Name":"label","Value":"_content/WebSiteWasi/ImagenesProductos/CocaCola.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13030"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:50:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/CocaCola.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\CocaCola.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CxjeYlz/R5sMu/0qn7lL27PA9R84ZDyY4UrLPeVKlPg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"894433"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CxjeYlz/R5sMu/0qn7lL27PA9R84ZDyY4UrLPeVKlPg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:50:53 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/CocaCola.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\CocaCola.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13030"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:50:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/Corona.3y6za8x1sm.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\Corona.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3y6za8x1sm"},{"Name":"integrity","Value":"sha256-68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns="},{"Name":"label","Value":"_content/WebSiteWasi/ImagenesProductos/Corona.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"125878"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002268cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:24:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/Corona.6p9fdsu3x7.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\Corona.png'))</AssetFile>
@@ -101,12 +83,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JmQirlqmBRP4LlYuGicxFsWkalYwG3axbDJrM8gwuYM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"943785"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JmQirlqmBRP4LlYuGicxFsWkalYwG3axbDJrM8gwuYM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:53:38 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/Corona.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\Corona.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"125878"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002268cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 03:24:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebSiteWasi/ImagenesProductos/Ensalada.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ImagenesProductos\Ensalada.png'))</AssetFile>

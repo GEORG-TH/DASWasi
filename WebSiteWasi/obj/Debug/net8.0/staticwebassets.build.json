@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wPRBIFtJp1rOpygg/7jmqBT1yW+Lw3fS7MPBp70TXGA=",
+  "Hash": "an78u8aQMNGF+c/2mfmnVjOysC++u3ulVpUkmAYjQ5A=",
   "Source": "WebSiteWasi",
   "BasePath": "_content/WebSiteWasi",
   "Mode": "Default",
@@ -1445,27 +1445,6 @@
       "OriginalItemSpec": "wwwroot\\ImagenesProductos\\CocaCola.png"
     },
     {
-      "Identity": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\CocaCola.webp",
-      "SourceId": "WebSiteWasi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\",
-      "BasePath": "_content/WebSiteWasi",
-      "RelativePath": "ImagenesProductos/CocaCola#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "e1zid62tjp",
-      "Integrity": "Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\CocaCola.webp"
-    },
-    {
       "Identity": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Corona.png",
       "SourceId": "WebSiteWasi",
       "SourceType": "Discovered",
@@ -1485,27 +1464,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImagenesProductos\\Corona.png"
-    },
-    {
-      "Identity": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Corona.webp",
-      "SourceId": "WebSiteWasi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\",
-      "BasePath": "_content/WebSiteWasi",
-      "RelativePath": "ImagenesProductos/Corona#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3y6za8x1sm",
-      "Integrity": "68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagenesProductos\\Corona.webp"
     },
     {
       "Identity": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Ensalada.png",
@@ -5823,51 +5781,6 @@
       ]
     },
     {
-      "Route": "ImagenesProductos/CocaCola.e1zid62tjp.webp",
-      "AssetFile": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\CocaCola.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 03:50:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e1zid62tjp"
-        },
-        {
-          "Name": "label",
-          "Value": "ImagenesProductos/CocaCola.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg="
-        }
-      ]
-    },
-    {
       "Route": "ImagenesProductos/CocaCola.png",
       "AssetFile": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\CocaCola.png",
       "Selectors": [],
@@ -5901,88 +5814,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-CxjeYlz/R5sMu/0qn7lL27PA9R84ZDyY4UrLPeVKlPg="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/CocaCola.webp",
-      "AssetFile": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\CocaCola.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 03:50:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Hhlz2STI6jX62Ih5foyG7b2r8mjggm0u3PMuM4iNCpg="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/Corona.3y6za8x1sm.webp",
-      "AssetFile": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Corona.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "125878"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 03:24:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3y6za8x1sm"
-        },
-        {
-          "Name": "label",
-          "Value": "ImagenesProductos/Corona.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns="
         }
       ]
     },
@@ -6065,43 +5896,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JmQirlqmBRP4LlYuGicxFsWkalYwG3axbDJrM8gwuYM="
-        }
-      ]
-    },
-    {
-      "Route": "ImagenesProductos/Corona.webp",
-      "AssetFile": "C:\\Users\\Georg\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Corona.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "125878"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 03:24:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-68cxY0phyBwqnWpie7Gw/AjV3Q9ENpBle6j/ZaYsYns="
         }
       ]
     },
