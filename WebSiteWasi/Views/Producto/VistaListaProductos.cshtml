@@ -24,6 +24,7 @@
                 <tr>
                     <th class="text-black text-center">Nombre</th>
                     <th class="text-black text-center">Precio</th>
+                    <th class="text-black text-center">Imagen</th>
                     <th class="text-black text-center">Acciones</th>
                 </tr>
             </thead>
@@ -33,15 +34,29 @@
                     <tr>
                         <td class="text-center">@item.NombreProducto</td>
                         <td class="text-center">@item.PrecioProducto</td>
+                        <td width="20%" class="text-center">
+                            <img src="/ImagenesProductos/@item.ImagenURLProducto" width="100" />
+                        </td>
                         <td class="text-center">
-                            @if (User.IsInRole("CLIENT"))
-                            {
-                                <!-- Botón para abrir la ventana emergente de cantidad -->
-                                <button class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#cantidadModal" data-producto-id="@item.IdProducto" data-producto-nombre="@item.NombreProducto" data-producto-precio="@item.PrecioProducto">Agregar al Carrito</button>
+                            <div class="m-75 btn-group" role="group">
 
-                                <!-- Ver Producto -->
-                                <a asp-controller="Producto" asp-action="Detalles" asp-route-id="@item.IdProducto" class="btn btn-info mx-2">Ver Producto</a>
-                            }
+                                @if (User.IsInRole("CLIENT")){
+                                   <!-- Botón para abrir la ventana emergente de cantidad -->
+                                   <button class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#cantidadModal" data-producto-id="@item.IdProducto" data-producto-nombre="@item.NombreProducto" data-producto-precio="@item.PrecioProducto">Agregar al Carrito</button>
+
+                                    
+                                }
+                                else if (User.IsInRole("ADMIN"))
+                                {
+                                                <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
+                                                <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
+                                }
+                                        <!-- Ver Producto -->
+                                           <a asp-controller="Producto" asp-action="Detalles" asp-route-id="@item.IdProducto" class="btn btn-info mx-2">Ver Producto</a>
+
+
+                            <div />
+                            
                         </td>
                     </tr>
                 }

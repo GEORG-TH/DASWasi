@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebSiteWasi.Models;
+using System.Reflection.Emit;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
@@ -20,6 +21,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+
+
         base.OnModelCreating(builder);
 
         // Relación entre Compra y MetodoPago
@@ -117,6 +120,33 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         var tarjeta = new MetodoPago(2, "TARJETA");
 
         builder.Entity<MetodoPago>().HasData(efectivo, tarjeta);
+
+
+        // Crear categorías
+        var categoriaElectronica = new Categoria { IdCategoria = 1, NombreCategoria = "Electrónica" };
+        var categoriaRopaModa = new Categoria { IdCategoria = 2, NombreCategoria = "Ropa y Moda" };
+        var categoriaVideojuegos = new Categoria { IdCategoria = 3, NombreCategoria = "Videojuegos" };
+
+
+        builder.Entity<Categoria>().HasData(categoriaElectronica, categoriaRopaModa, categoriaVideojuegos);
+
+
+        // Crear productos por defecto Electrónica
+
+        var producto1 = new Producto
+        {
+            IdProducto = 1,
+            NombreProducto = "Smartphone Galaxy S21",
+            DescripcionProducto = "Pantalla AMOLED de 6.2 pulgadas, 128GB",
+            PrecioProducto = 799.99m,
+            StockProducto = 50,
+            ImagenURLProducto = "Smartphone_Galaxy_S21.webp",
+            FechaCreacionProducto = DateTime.Now,
+            IdCategoria = 1 // Asumiendo que la categoría "Electrónica" tiene ID 1
+        };
+
+
+        builder.Entity<Producto>().HasData(producto1);
     }
 
 

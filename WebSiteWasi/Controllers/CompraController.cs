@@ -100,6 +100,17 @@ namespace WebSiteWasi.Controllers
                 return RedirectToAction("Index", "Producto"); // Redirigir si no hay productos en el carrito
             }
 
+            // Validar el stock de cada producto en el carrito
+            foreach (var item in carrito.CarritoProductos)
+            {
+                if (item.Cantidad > item.Producto.StockProducto)
+                {
+                    TempData["ErrorStock"] = $"La cantidad del producto \"{item.Producto.NombreProducto}\" supera al stock disponible ({item.Producto.StockProducto} unidades). Modifica la cantidad.";
+                    return RedirectToAction("Index", "Carrito");
+                }
+            }
+
+
             // Obtener los métodos de pago disponibles
             var metodosPago = await _context.MetodoPagos
                 .Select(mp => new SelectListItem
@@ -115,7 +126,7 @@ namespace WebSiteWasi.Controllers
             ViewData["MetodosPago"] = metodosPago;
             ViewData["TotalCompra"] = carrito.CarritoProductos.Sum(cp => cp.Producto.PrecioProducto * cp.Cantidad);
 
-            return View();
+            return View(carrito);
         }
 
 

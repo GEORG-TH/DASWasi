@@ -1,308 +1,364 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebSiteWasi.y5yao9frz8.bundle.scp.css"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteWasi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebSiteWasi.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193328572.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241123193328572.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Audífonos_Bluetooth_Sony_WH_1000XM4.jfif",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Audífonos_Bluetooth_Sony_WH_1000XM4.jfif"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193507743.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241123193507743.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\BufandaCachemir.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\BufandaCachemir.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193530482.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241123193530482.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Call_of_Duty_Modern_Warfare_II.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Call_of_Duty_Modern_Warfare_II.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193553947.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241123193553947.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Camara_Canon_EOS_Rebel_T7.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Camara_Canon_EOS_Rebel_T7.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193617464.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241123193617464.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Camiseta_Nike_negra.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Camiseta_Nike_negra.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241123193708594.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241123193708594.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Cinturon_de_Cuero.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Cinturon_de_Cuero.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124185247343.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124185247343.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Cyberpunk_2077.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Cyberpunk_2077.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124201250944.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124201250944.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Disco_Duro_Externo_WD_2TB.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Disco_Duro_Externo_WD_2TB.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124233342781.png",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124233342781.png"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\FIFA_23.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\FIFA_23.webp"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124233420589.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124233420589.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\God_of_war_3.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\God_of_war_3.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124234418500.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124234418500.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Gran_Turismo_7.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Gran_Turismo_7.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124234430917.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124234430917.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Guantes.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Guantes.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241124235456353.jpg",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241124235456353.jpg"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Laptop_Dell_Inspiron_15.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Laptop_Dell_Inspiron_15.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\ImagenesProductos\\20241125000014849.png",
-      "PackagePath": "staticwebassets\\ImagenesProductos\\20241125000014849.png"
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Mario_Kart 8_Deluxe.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Mario_Kart 8_Deluxe.png"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Minecraft.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Minecraft.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Pantalon_Jeans.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Pantalon_Jeans.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Parlante_JBL_Charge_5.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Parlante_JBL_Charge_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\PlayStation_5.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\PlayStation_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Router_TP_Link_Archer_AX50.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Router_TP_Link_Archer_AX50.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Smartphone_Galaxy_S21.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Smartphone_Galaxy_S21.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Smartwatch_Apple_Watch_SE.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Smartwatch_Apple_Watch_SE.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Sombrero_Fedora.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Sombrero_Fedora.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Tablet_iPad_10th_Gen.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Tablet_iPad_10th_Gen.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Televisor_Samsung_4K_UHD_50.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Televisor_Samsung_4K_UHD_50.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\The_Legend_of_Zelda_Breath_of_the_Wild.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\The_Legend_of_Zelda_Breath_of_the_Wild.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Vestido_Floral.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Vestido_Floral.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Xbox_Series_X.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Xbox_Series_X.png"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\Zapatillas.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\Zapatillas.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\ImagenesProductos\\short.webp",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\short.webp"
+    },
+    {
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Georg\\Documents\\DISEÑO Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSiteWasi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSiteWasi.Microsoft.AspNetCore.StaticWebAssets.props",

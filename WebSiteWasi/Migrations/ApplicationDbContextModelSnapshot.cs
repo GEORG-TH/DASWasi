@@ -50,13 +50,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "52842f42-18ab-407b-8bab-9b2ff28c1d53",
+                            Id = "fe051923-6310-42f1-9a19-16c011595938",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "de420365-562a-41fe-821a-de6c141bec05",
+                            Id = "577df33d-6224-46b7-9f9c-9f8d9c29cfb3",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -317,6 +317,23 @@ namespace WebSiteWasi.Migrations
                     b.HasKey("IdCategoria");
 
                     b.ToTable("Categorias");
+
+                    b.HasData(
+                        new
+                        {
+                            IdCategoria = 1,
+                            NombreCategoria = "Electrónica"
+                        },
+                        new
+                        {
+                            IdCategoria = 2,
+                            NombreCategoria = "Ropa y Moda"
+                        },
+                        new
+                        {
+                            IdCategoria = 3,
+                            NombreCategoria = "Videojuegos"
+                        });
                 });
 
             modelBuilder.Entity("WebSiteWasi.Models.Compra", b =>
@@ -460,6 +477,19 @@ namespace WebSiteWasi.Migrations
                     b.HasIndex("IdCategoria");
 
                     b.ToTable("Productos");
+
+                    b.HasData(
+                        new
+                        {
+                            IdProducto = 1,
+                            DescripcionProducto = "Pantalla AMOLED de 6.2 pulgadas, 128GB",
+                            FechaCreacionProducto = new DateTime(2024, 11, 25, 19, 29, 48, 503, DateTimeKind.Local).AddTicks(189),
+                            IdCategoria = 1,
+                            ImagenURLProducto = "Smartphone_Galaxy_S21.webp",
+                            NombreProducto = "Smartphone Galaxy S21",
+                            PrecioProducto = 799.99m,
+                            StockProducto = 50
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

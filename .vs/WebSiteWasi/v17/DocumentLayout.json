@@ -1,58 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\",
+  "WorkspaceRootPath": "C:\\Users\\Biometric\\Desktop\\das\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\compra\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\compra\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\compra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\compra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\migrations\\20241126002949_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\migrations\\20241126002949_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\compra\\confirmarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\compra\\confirmarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\migrations\\20241125044311_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\migrations\\20241125044311_wasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\models\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\models\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\vistalistaproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\georg\\documents\\dise\u00F1o y arquitectura\\websitewasi1\\websitewasi\\views\\compra\\compraexitosa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\compra\\compraexitosa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\views\\categoria\\vistaregistrarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\categoria\\vistaregistrarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\views\\producto\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\producto\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\views\\categoria\\vistalistaproductosporcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\views\\categoria\\vistalistaproductosporcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|c:\\users\\biometric\\desktop\\das\\websitewasi\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6DF854-8338-4A4E-83F7-70575E2DB1E6}|WebSiteWasi\\WebSiteWasi.csproj|solutionrelative:websitewasi\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,185 +66,186 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T16:39:43.196Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompraController.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Controllers\\CompraController.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Controllers\\CompraController.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Controllers\\CompraController.cs",
-              "RelativeToolTip": "WebSiteWasi\\Controllers\\CompraController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:02:35.258Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebSiteWasi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\appsettings.json",
+              "RelativeToolTip": "WebSiteWasi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T00:29:55.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Compra\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\Index.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Compra\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T17:04:23.005Z",
+              "Title": "20241126002949_wasi.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126002949_wasi.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Migrations\\20241126002949_wasi.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Migrations\\20241126002949_wasi.cs",
+              "RelativeToolTip": "WebSiteWasi\\Migrations\\20241126002949_wasi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T00:29:50.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Detalle.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\Detalle.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Compra\\Detalle.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\Detalle.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Compra\\Detalle.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T17:04:54.967Z",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Datos\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Datos\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Datos\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebSiteWasi\\Datos\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwIcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:21:33.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConfirmarCompra.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Compra\\ConfirmarCompra.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T17:09:18.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241125044311_wasi.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Migrations\\20241125044311_wasi.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Migrations\\20241125044311_wasi.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Migrations\\20241125044311_wasi.cs",
-              "RelativeToolTip": "WebSiteWasi\\Migrations\\20241125044311_wasi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Categoria.cs",
+              "RelativeToolTip": "WebSiteWasi\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:08:36.397Z",
+              "WhenOpened": "2024-11-25T23:21:25.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\Producto.cs",
-              "RelativeToolTip": "WebSiteWasi\\Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Title": "CarritoProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\CarritoProducto.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\CarritoProducto.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\CarritoProducto.cs",
+              "RelativeToolTip": "WebSiteWasi\\Models\\CarritoProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:59:04.636Z",
+              "WhenOpened": "2024-11-25T22:49:53.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\DetalleCompra.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\DetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\DetalleCompra.cs",
-              "RelativeToolTip": "WebSiteWasi\\Models\\DetalleCompra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Title": "CompraController.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Controllers\\CompraController.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Controllers\\CompraController.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Controllers\\CompraController.cs",
+              "RelativeToolTip": "WebSiteWasi\\Controllers\\CompraController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwHEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:56:20.207Z",
+              "WhenOpened": "2024-11-25T22:28:29.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MetodoPago.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\MetodoPago.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\MetodoPago.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\MetodoPago.cs",
-              "RelativeToolTip": "WebSiteWasi\\Models\\MetodoPago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Compra.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Compra.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Compra.cs",
+              "RelativeToolTip": "WebSiteWasi\\Models\\Compra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:53:28.353Z",
+              "WhenOpened": "2024-11-25T22:25:31.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\Compra.cs",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Compra.cs",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Models\\Compra.cs",
-              "RelativeToolTip": "WebSiteWasi\\Models\\Compra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Carrito\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T22:20:19.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VistaRegistrarCategoria.cshtml",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Categoria\\VistaRegistrarCategoria.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Categoria\\VistaRegistrarCategoria.cshtml",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Categoria\\VistaRegistrarCategoria.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Categoria\\VistaRegistrarCategoria.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T21:50:16.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Producto.cs",
+              "RelativeToolTip": "WebSiteWasi\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:50:44.379Z",
+              "WhenOpened": "2024-11-25T21:39:41.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "VistaListaProductos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\VistaListaProductos.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACoAAACdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T16:42:59.129Z",
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\Carrito.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\Carrito.cs",
+              "RelativeToolTip": "WebSiteWasi\\Models\\Carrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:25:35.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Carrito\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Carrito\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Carrito\\Index.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Carrito\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T16:41:40.258Z",
-              "EditorCaption": ""
+              "DocumentIndex": 13,
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Models\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Models\\DetalleCompra.cs",
+              "RelativeToolTip": "WebSiteWasi\\Models\\DetalleCompra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:49:47.788Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CompraExitosa.cshtml",
-              "DocumentMoniker": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\CompraExitosa.cshtml",
-              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Compra\\CompraExitosa.cshtml",
-              "ToolTip": "C:\\Users\\Georg\\Documents\\DISE\u00D1O Y ARQUITECTURA\\WebSiteWasi1\\WebSiteWasi\\Views\\Compra\\CompraExitosa.cshtml",
-              "RelativeToolTip": "WebSiteWasi\\Views\\Compra\\CompraExitosa.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "VistaListaProductosPorCategoria.cshtml",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Categoria\\VistaListaProductosPorCategoria.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Categoria\\VistaListaProductosPorCategoria.cshtml",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Categoria\\VistaListaProductosPorCategoria.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Categoria\\VistaListaProductosPorCategoria.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T16:41:36.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T21:42:06.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Detalles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "RelativeDocumentMoniker": "WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "ToolTip": "C:\\Users\\Biometric\\Desktop\\das\\WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "RelativeToolTip": "WebSiteWasi\\Views\\Producto\\Detalles.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T21:39:00.266Z"
             }
           ]
         }

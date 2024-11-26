@@ -14,13 +14,9 @@
         <table class="table table-bordered table-striped" style="width:100%">
             <thead>
                 <tr>
-                    <th class="text-black text-center">Id</th>
                     <th class="text-black text-center">Nombre</th>
-                    <th class="text-black text-center">Descripción</th>
                     <th class="text-black text-center">Precio</th>
-                    <th class="text-black text-center">Stock</th>
                     <th class="text-black text-center">Imagen</th>
-                    <th class="text-black text-center">Fecha de Creación</th>
                     <th class="text-black text-center">Acciones</th>
                 </tr>
             </thead>
@@ -29,27 +25,32 @@
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td class="text-center">@item.IdProducto</td>
                         <td class="text-center">@item.NombreProducto</td>
-                        <td class="text-center">@item.DescripcionProducto</td>
                         <td class="text-center">@item.PrecioProducto</td>
-                        <td class="text-center">@item.StockProducto</td>
-                        <td class="text-center">
-                            @if (!string.IsNullOrEmpty(item.ImagenURLProducto))
-                            {
-                                <img src="@Url.Content("~/ImagenesProductos/" + item.ImagenURLProducto)" width="100" />
-                            }
-                            else
-                            {
-                                <span>No disponible</span>
-                            }
+                        <td width="20%" class="text-center">
+                            <img src="/ImagenesProductos/@item.ImagenURLProducto" width="100" />
                         </td>
-                        <td class="text-center">@item.FechaCreacionProducto.ToString("dd/MM/yyyy")</td>
                         <td class="text-center">
-                            <div class="btn-group" role="group">
-                                <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
-                                <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
-                            </div>
+                            <div class="m-75 btn-group" role="group">
+
+                                @if (User.IsInRole("CLIENT"))
+                                {
+                                    <!-- Botón para abrir la ventana emergente de cantidad -->
+                                    <button class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#cantidadModal" data-producto-id="@item.IdProducto" data-producto-nombre="@item.NombreProducto" data-producto-precio="@item.PrecioProducto">Agregar al Carrito</button>
+
+
+                                }
+                                else if (User.IsInRole("ADMIN"))
+                                {
+                                    <a asp-controller="Producto" asp-action="VistaModificarProducto" asp-route-Id="@item.IdProducto" class="btn btn-primary mx-2">Modificar</a>
+                                    <a asp-controller="Producto" asp-action="VistaPreEliminarProducto" asp-route-Id="@item.IdProducto" class="btn btn-danger mx-2">Eliminar</a>
+                                }
+                                <!-- Ver Producto -->
+                                <a asp-controller="Producto" asp-action="Detalles" asp-route-id="@item.IdProducto" class="btn btn-info mx-2">Ver Producto</a>
+
+
+                                <div />
+
                         </td>
                     </tr>
                 }
@@ -61,3 +62,65 @@
         <p>No hay productos registrados en esta categoría.</p>
     }
 </div>
+
+<!-- Modal para seleccionar la cantidad -->
+<div class="modal fade" id="cantidadModal" tabindex="-1" aria-labelledby="cantidadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cantidadModalLabel">Selecciona la cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="number" id="cantidadInput" class="form-control" value="1" min="1" />
+                <input type="hidden" id="productoId" />
+                <input type="hidden" id="productoNombre" />
+                <input type="hidden" id="productoPrecio" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="confirmarBtn">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var productoId, productoNombre, productoPrecio;
+
+        // Llenar el modal con la información del producto
+        $('#cantidadModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            productoId = button.data('producto-id');
+            productoNombre = button.data('producto-nombre');
+            productoPrecio = button.data('producto-precio');
+
+            // Asignar valores al modal
+            $('#productoId').val(productoId);
+            $('#productoNombre').val(productoNombre);
+            $('#productoPrecio').val(productoPrecio);
+        });
+
+        // Confirmar y agregar al carrito
+        $('#confirmarBtn').on('click', function () {
+            var cantidad = $('#cantidadInput').val();
+            if (cantidad > 0) {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("AgregarAlCarrito", "Carrito")',
+                    data: {
+                        productoId: productoId,
+                        cantidad: cantidad
+                    },
+                    success: function (response) {
+                        $('#cantidadModal').modal('hide');
+                        location.reload(); // Actualizar la página para mostrar el nuevo contador
+                    }
+                });
+            } else {
+                alert("La cantidad debe ser mayor a 0.");
+            }
+        });
+    </script>
+}
