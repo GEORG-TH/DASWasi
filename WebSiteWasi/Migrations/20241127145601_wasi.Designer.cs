@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace WebSiteWasi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241126054143_EF1")]
-    partial class EF1
+    [Migration("20241127145601_wasi")]
+    partial class wasi
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,13 +53,13 @@ namespace WebSiteWasi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b6d919f3-ddb8-4886-96f3-17ae18569bcc",
+                            Id = "465b3eb9-18a6-46f6-9b9d-2e2f8cf482e8",
                             Name = "ADMIN",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "c94d5186-89c6-435b-a427-9303d529a118",
+                            Id = "e681a996-39e3-43d4-9b57-f59468c192e3",
                             Name = "CLIENT",
                             NormalizedName = "CLIENT"
                         });
@@ -496,7 +496,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 1,
                             DescripcionProducto = "Pantalla AMOLED de 6.2 pulgadas, 128GB",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6905),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1516),
                             IdCategoria = 1,
                             ImagenURLProducto = "Smartphone_Galaxy_S21.webp",
                             NombreProducto = "Smartphone Galaxy S21",
@@ -507,7 +507,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 2,
                             DescripcionProducto = "Intel i5, 8GB RAM, 256GB SSD",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6917),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1528),
                             IdCategoria = 1,
                             ImagenURLProducto = "Laptop_Dell_Inspiron_15.png",
                             NombreProducto = "Laptop Dell Inspiron 15",
@@ -518,7 +518,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 3,
                             DescripcionProducto = "Pantalla Retina de 10.9 pulgadas, 64GB",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6919),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1530),
                             IdCategoria = 1,
                             ImagenURLProducto = "Tablet_iPad_10th_Gen.png",
                             NombreProducto = "Tablet iPad 10th Gen",
@@ -529,7 +529,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 4,
                             DescripcionProducto = "Cancelación de ruido, batería 30 horas",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6920),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1531),
                             IdCategoria = 1,
                             ImagenURLProducto = "Audífonos_Bluetooth_Sony_WH_1000XM4.jfif",
                             NombreProducto = "Audífonos Bluetooth Sony WH-1000XM4",
@@ -540,7 +540,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 5,
                             DescripcionProducto = "Resolución 3840 x 2160, HDR10+",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6921),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1533),
                             IdCategoria = 1,
                             ImagenURLProducto = "Televisor_Samsung_4K_UHD_50.webp",
                             NombreProducto = "Televisor Samsung 4K UHD 50'' ",
@@ -551,7 +551,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 6,
                             DescripcionProducto = "Transpirable, 100% poliéster, color negro",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6923),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1534),
                             IdCategoria = 2,
                             ImagenURLProducto = "Camiseta_Nike_negra.png",
                             NombreProducto = "Camiseta Deportiva Nike ",
@@ -562,7 +562,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 7,
                             DescripcionProducto = "Levis 501 Corte clásico, azul índigo",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6924),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1535),
                             IdCategoria = 2,
                             ImagenURLProducto = "Pantalon_Jeans.png",
                             NombreProducto = "Pantalón Jeans ",
@@ -573,7 +573,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 8,
                             DescripcionProducto = "Suela amortiguada, color blanco",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6926),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1537),
                             IdCategoria = 2,
                             ImagenURLProducto = "Zapatillas.webp",
                             NombreProducto = "Zapatillas Adidas",
@@ -584,7 +584,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 9,
                             DescripcionProducto = "Material de lana, color gris",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6927),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1538),
                             IdCategoria = 2,
                             ImagenURLProducto = "Sombrero_Fedora.webp",
                             NombreProducto = "Sombrero Fedora",
@@ -595,7 +595,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 10,
                             DescripcionProducto = "Suave al tacto, color beige",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6929),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1540),
                             IdCategoria = 2,
                             ImagenURLProducto = "BufandaCachemir.webp",
                             NombreProducto = "Bufanda Cachemir",
@@ -606,7 +606,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 11,
                             DescripcionProducto = "Videojuego de acción y aventura hack and slash",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6930),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1541),
                             IdCategoria = 3,
                             ImagenURLProducto = "God_of_war_3.png",
                             NombreProducto = "God of War 3",
@@ -617,7 +617,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 12,
                             DescripcionProducto = "Simulación de fútbol publicado por Electronic Arts",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6931),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1542),
                             IdCategoria = 3,
                             ImagenURLProducto = "FIFA_23.webp",
                             NombreProducto = "FIFA 23",
@@ -628,7 +628,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 13,
                             DescripcionProducto = "Simulación de carreras de 2022 desarrollado por Polyphony Digital",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6933),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1544),
                             IdCategoria = 3,
                             ImagenURLProducto = "Gran_Turismo_7.png",
                             NombreProducto = "GranTurismo 7",
@@ -639,7 +639,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 14,
                             DescripcionProducto = "Consola, 1TB, incluye mando y juegos",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6934),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1545),
                             IdCategoria = 3,
                             ImagenURLProducto = "PlayStation_5.png",
                             NombreProducto = "PlayStation 5",
@@ -650,7 +650,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 15,
                             DescripcionProducto = "Consola, 1TB, incluye mando",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6936),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1546),
                             IdCategoria = 3,
                             ImagenURLProducto = "Xbox_Series_X.png",
                             NombreProducto = "Xbox Series X",
@@ -661,7 +661,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 16,
                             DescripcionProducto = "Coca Cola Personal Fría",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6937),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1548),
                             IdCategoria = 4,
                             ImagenURLProducto = "CocaCola.png",
                             NombreProducto = "Coca Cola",
@@ -672,7 +672,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 17,
                             DescripcionProducto = "Pepsi 1L Fría",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6939),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1549),
                             IdCategoria = 4,
                             ImagenURLProducto = "Pepsi.png",
                             NombreProducto = "Pepsi",
@@ -683,7 +683,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 18,
                             DescripcionProducto = "Agua San Luis Personal Sin Gas",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6941),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1550),
                             IdCategoria = 4,
                             ImagenURLProducto = "SAN_LUIS.png",
                             NombreProducto = "Agua San Luis",
@@ -694,7 +694,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 19,
                             DescripcionProducto = "IncaKola Personal Fría",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6942),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1551),
                             IdCategoria = 4,
                             ImagenURLProducto = "IncaKola.png",
                             NombreProducto = "IncaKola",
@@ -705,7 +705,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 20,
                             DescripcionProducto = "Corona Extra 500ml",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6943),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1553),
                             IdCategoria = 4,
                             ImagenURLProducto = "Corona.png",
                             NombreProducto = "Corona Extra",
@@ -716,7 +716,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 21,
                             DescripcionProducto = "Galletas de mantequilla en cada de lata",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6945),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1554),
                             IdCategoria = 5,
                             ImagenURLProducto = "Galletas_caja_lata.webp",
                             NombreProducto = "Galletas",
@@ -727,7 +727,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 22,
                             DescripcionProducto = "1 Pollo de brasa con papas fritas y ensalada",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6946),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1555),
                             IdCategoria = 5,
                             ImagenURLProducto = "Pollo_brasa.png",
                             NombreProducto = "Pollito de brasa",
@@ -738,7 +738,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 23,
                             DescripcionProducto = "Paneton Todinno Caja Grande",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6975),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1556),
                             IdCategoria = 5,
                             ImagenURLProducto = "todino.png",
                             NombreProducto = "Paneton Todinno",
@@ -749,7 +749,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 24,
                             DescripcionProducto = "Pavo al horno grande 12kg",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6977),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1558),
                             IdCategoria = 5,
                             ImagenURLProducto = "Pavo.png",
                             NombreProducto = "Pavo al horno",
@@ -760,7 +760,7 @@ namespace WebSiteWasi.Migrations
                         {
                             IdProducto = 25,
                             DescripcionProducto = "Ensalada de Verdura fresas y saludables",
-                            FechaCreacionProducto = new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6978),
+                            FechaCreacionProducto = new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1559),
                             IdCategoria = 5,
                             ImagenURLProducto = "Ensalada.png",
                             NombreProducto = "Ensalada de Verduras",

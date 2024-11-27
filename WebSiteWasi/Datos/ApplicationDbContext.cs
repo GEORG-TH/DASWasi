@@ -55,10 +55,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
         // Relación entre Carrito y ApplicationUser
         builder.Entity<ApplicationUser>()
-            .HasOne(u => u.Carrito)  // Un usuario tiene un solo carrito
-            .WithOne(c => c.ApplicationUser)  // Un carrito pertenece a un solo usuario
-            .HasForeignKey<Carrito>(c => c.IdUsuario)  // La clave foránea en Carrito es IdUsuario
-            .OnDelete(DeleteBehavior.Cascade);  // Cuando se elimina el usuario, también se elimina el carrito
+            .HasOne(u => u.Carrito) 
+            .WithOne(c => c.ApplicationUser) 
+            .HasForeignKey<Carrito>(c => c.IdUsuario)  
+            .OnDelete(DeleteBehavior.Cascade);  
 
 
 
@@ -81,13 +81,13 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             .HasOne(d => d.Producto)
             .WithMany(p => p.DetalleCompras)
             .HasForeignKey(d => d.IdProducto)
-            .OnDelete(DeleteBehavior.Restrict);  // Asegúrate de que no se eliminen productos al eliminar detalles de compra
+            .OnDelete(DeleteBehavior.Restrict);  
 
         builder.Entity<DetalleCompra>()
     .HasOne(d => d.Compra)
     .WithMany(c => c.DetalleCompras)
     .HasForeignKey(d => d.IdCompra)
-    .OnDelete(DeleteBehavior.Cascade);  // Cuando se elimina la compra, se eliminan los detalles de la compra
+    .OnDelete(DeleteBehavior.Cascade);  
 
 
 

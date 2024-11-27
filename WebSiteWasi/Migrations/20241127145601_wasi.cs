@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebSiteWasi.Migrations
 {
     /// <inheritdoc />
-    public partial class EF1 : Migration
+    public partial class wasi : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -325,8 +325,8 @@ namespace WebSiteWasi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "b6d919f3-ddb8-4886-96f3-17ae18569bcc", null, "ADMIN", "ADMIN" },
-                    { "c94d5186-89c6-435b-a427-9303d529a118", null, "CLIENT", "CLIENT" }
+                    { "465b3eb9-18a6-46f6-9b9d-2e2f8cf482e8", null, "ADMIN", "ADMIN" },
+                    { "e681a996-39e3-43d4-9b57-f59468c192e3", null, "CLIENT", "CLIENT" }
                 });
 
             migrationBuilder.InsertData(
@@ -355,31 +355,31 @@ namespace WebSiteWasi.Migrations
                 columns: new[] { "IdProducto", "DescripcionProducto", "FechaCreacionProducto", "IdCategoria", "ImagenURLProducto", "NombreProducto", "PrecioProducto", "StockProducto" },
                 values: new object[,]
                 {
-                    { 1, "Pantalla AMOLED de 6.2 pulgadas, 128GB", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6905), 1, "Smartphone_Galaxy_S21.webp", "Smartphone Galaxy S21", 799.99m, 50 },
-                    { 2, "Intel i5, 8GB RAM, 256GB SSD", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6917), 1, "Laptop_Dell_Inspiron_15.png", "Laptop Dell Inspiron 15", 699.99m, 40 },
-                    { 3, "Pantalla Retina de 10.9 pulgadas, 64GB", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6919), 1, "Tablet_iPad_10th_Gen.png", "Tablet iPad 10th Gen", 499.99m, 30 },
-                    { 4, "Cancelación de ruido, batería 30 horas", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6920), 1, "Audífonos_Bluetooth_Sony_WH_1000XM4.jfif", "Audífonos Bluetooth Sony WH-1000XM4", 349.99m, 60 },
-                    { 5, "Resolución 3840 x 2160, HDR10+", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6921), 1, "Televisor_Samsung_4K_UHD_50.webp", "Televisor Samsung 4K UHD 50'' ", 599.99m, 25 },
-                    { 6, "Transpirable, 100% poliéster, color negro", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6923), 2, "Camiseta_Nike_negra.png", "Camiseta Deportiva Nike ", 29.99m, 150 },
-                    { 7, "Levis 501 Corte clásico, azul índigo", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6924), 2, "Pantalon_Jeans.png", "Pantalón Jeans ", 59.99m, 120 },
-                    { 8, "Suela amortiguada, color blanco", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6926), 2, "Zapatillas.webp", "Zapatillas Adidas", 99.99m, 30 },
-                    { 9, "Material de lana, color gris", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6927), 2, "Sombrero_Fedora.webp", "Sombrero Fedora", 19.99m, 70 },
-                    { 10, "Suave al tacto, color beige", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6929), 2, "BufandaCachemir.webp", "Bufanda Cachemir", 39.99m, 40 },
-                    { 11, "Videojuego de acción y aventura hack and slash", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6930), 3, "God_of_war_3.png", "God of War 3", 129.99m, 20 },
-                    { 12, "Simulación de fútbol publicado por Electronic Arts", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6931), 3, "FIFA_23.webp", "FIFA 23", 99.99m, 100 },
-                    { 13, "Simulación de carreras de 2022 desarrollado por Polyphony Digital", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6933), 3, "Gran_Turismo_7.png", "GranTurismo 7", 89.99m, 125 },
-                    { 14, "Consola, 1TB, incluye mando y juegos", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6934), 3, "PlayStation_5.png", "PlayStation 5", 599.99m, 100 },
-                    { 15, "Consola, 1TB, incluye mando", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6936), 3, "Xbox_Series_X.png", "Xbox Series X", 449.99m, 100 },
-                    { 16, "Coca Cola Personal Fría", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6937), 4, "CocaCola.png", "Coca Cola", 3.5m, 500 },
-                    { 17, "Pepsi 1L Fría", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6939), 4, "Pepsi.png", "Pepsi", 8.99m, 600 },
-                    { 18, "Agua San Luis Personal Sin Gas", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6941), 4, "SAN_LUIS.png", "Agua San Luis", 2.59m, 400 },
-                    { 19, "IncaKola Personal Fría", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6942), 4, "IncaKola.png", "IncaKola", 3.50m, 500 },
-                    { 20, "Corona Extra 500ml", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6943), 4, "Corona.png", "Corona Extra", 16.99m, 100 },
-                    { 21, "Galletas de mantequilla en cada de lata", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6945), 5, "Galletas_caja_lata.webp", "Galletas", 20.99m, 100 },
-                    { 22, "1 Pollo de brasa con papas fritas y ensalada", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6946), 5, "Pollo_brasa.png", "Pollito de brasa", 99.99m, 300 },
-                    { 23, "Paneton Todinno Caja Grande", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6975), 5, "todino.png", "Paneton Todinno", 29.90m, 400 },
-                    { 24, "Pavo al horno grande 12kg", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6977), 5, "Pavo.png", "Pavo al horno", 129.99m, 50 },
-                    { 25, "Ensalada de Verdura fresas y saludables", new DateTime(2024, 11, 26, 0, 41, 42, 925, DateTimeKind.Local).AddTicks(6978), 5, "Ensalada.png", "Ensalada de Verduras", 19.90m, 120 }
+                    { 1, "Pantalla AMOLED de 6.2 pulgadas, 128GB", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1516), 1, "Smartphone_Galaxy_S21.webp", "Smartphone Galaxy S21", 799.99m, 50 },
+                    { 2, "Intel i5, 8GB RAM, 256GB SSD", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1528), 1, "Laptop_Dell_Inspiron_15.png", "Laptop Dell Inspiron 15", 699.99m, 40 },
+                    { 3, "Pantalla Retina de 10.9 pulgadas, 64GB", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1530), 1, "Tablet_iPad_10th_Gen.png", "Tablet iPad 10th Gen", 499.99m, 30 },
+                    { 4, "Cancelación de ruido, batería 30 horas", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1531), 1, "Audífonos_Bluetooth_Sony_WH_1000XM4.jfif", "Audífonos Bluetooth Sony WH-1000XM4", 349.99m, 60 },
+                    { 5, "Resolución 3840 x 2160, HDR10+", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1533), 1, "Televisor_Samsung_4K_UHD_50.webp", "Televisor Samsung 4K UHD 50'' ", 599.99m, 25 },
+                    { 6, "Transpirable, 100% poliéster, color negro", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1534), 2, "Camiseta_Nike_negra.png", "Camiseta Deportiva Nike ", 29.99m, 150 },
+                    { 7, "Levis 501 Corte clásico, azul índigo", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1535), 2, "Pantalon_Jeans.png", "Pantalón Jeans ", 59.99m, 120 },
+                    { 8, "Suela amortiguada, color blanco", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1537), 2, "Zapatillas.webp", "Zapatillas Adidas", 99.99m, 30 },
+                    { 9, "Material de lana, color gris", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1538), 2, "Sombrero_Fedora.webp", "Sombrero Fedora", 19.99m, 70 },
+                    { 10, "Suave al tacto, color beige", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1540), 2, "BufandaCachemir.webp", "Bufanda Cachemir", 39.99m, 40 },
+                    { 11, "Videojuego de acción y aventura hack and slash", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1541), 3, "God_of_war_3.png", "God of War 3", 129.99m, 20 },
+                    { 12, "Simulación de fútbol publicado por Electronic Arts", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1542), 3, "FIFA_23.webp", "FIFA 23", 99.99m, 100 },
+                    { 13, "Simulación de carreras de 2022 desarrollado por Polyphony Digital", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1544), 3, "Gran_Turismo_7.png", "GranTurismo 7", 89.99m, 125 },
+                    { 14, "Consola, 1TB, incluye mando y juegos", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1545), 3, "PlayStation_5.png", "PlayStation 5", 599.99m, 100 },
+                    { 15, "Consola, 1TB, incluye mando", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1546), 3, "Xbox_Series_X.png", "Xbox Series X", 449.99m, 100 },
+                    { 16, "Coca Cola Personal Fría", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1548), 4, "CocaCola.png", "Coca Cola", 3.5m, 500 },
+                    { 17, "Pepsi 1L Fría", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1549), 4, "Pepsi.png", "Pepsi", 8.99m, 600 },
+                    { 18, "Agua San Luis Personal Sin Gas", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1550), 4, "SAN_LUIS.png", "Agua San Luis", 2.59m, 400 },
+                    { 19, "IncaKola Personal Fría", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1551), 4, "IncaKola.png", "IncaKola", 3.50m, 500 },
+                    { 20, "Corona Extra 500ml", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1553), 4, "Corona.png", "Corona Extra", 16.99m, 100 },
+                    { 21, "Galletas de mantequilla en cada de lata", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1554), 5, "Galletas_caja_lata.webp", "Galletas", 20.99m, 100 },
+                    { 22, "1 Pollo de brasa con papas fritas y ensalada", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1555), 5, "Pollo_brasa.png", "Pollito de brasa", 99.99m, 300 },
+                    { 23, "Paneton Todinno Caja Grande", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1556), 5, "todino.png", "Paneton Todinno", 29.90m, 400 },
+                    { 24, "Pavo al horno grande 12kg", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1558), 5, "Pavo.png", "Pavo al horno", 129.99m, 50 },
+                    { 25, "Ensalada de Verdura fresas y saludables", new DateTime(2024, 11, 27, 9, 56, 0, 657, DateTimeKind.Local).AddTicks(1559), 5, "Ensalada.png", "Ensalada de Verduras", 19.90m, 120 }
                 });
 
             migrationBuilder.CreateIndex(

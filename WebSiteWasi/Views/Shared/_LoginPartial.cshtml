@@ -9,7 +9,7 @@
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
-        // Si el usuario tiene el rol de ADMIN
+        
         if (User.IsInRole("ADMIN"))
         {
             <li class="nav-item dropdown">
@@ -23,20 +23,17 @@
                 </ul>
             </li>
         }
-        // Si el usuario tiene el rol de CLIENT
         else if (User.IsInRole("CLIENT"))
         {
-            <!-- Carrito de compras -->
             <li class="nav-item">
                 <a class="nav-link text-dark" asp-controller="Carrito" asp-action="Index">
                     <i class="fas fa-shopping-cart"></i>
                     <span class="badge bg-danger">
-                        @* Mostrar el contador de productos en el carrito *@
+                        
                         @{
                             var user = await UserManager.GetUserAsync(User);
                             int cartItemCount = 0;
 
-                            // Verificar si el usuario tiene un carrito y calcular el número de productos en él
                             if (user != null)
                             {
                                 var carrito = await _dbContext.Carritos
